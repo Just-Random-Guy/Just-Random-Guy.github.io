@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="580"
+   height="525"
+   version="1.1"
+   id="svg104"
+   sodipodi:docname="illustration-intro.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview106"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.90857143"
+     inkscape:cx="416.58805"
+     inkscape:cy="147.48428"
+     inkscape:window-width="1280"
+     inkscape:window-height="657"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g102" />
+  <defs
+     id="defs34">
+    <filter
+       id="c"
+       width="1.1846154"
+       height="1.2468085"
+       x="-0.092307692"
+       y="-0.10212766"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="10"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset2" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="10"
+         id="feGaussianBlur4" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.311765745 0 0 0 0 0.336514196 0 0 0 0 0.386011096 0 0 0 0.03 0"
+         id="feColorMatrix6" />
+    </filter>
+    <filter
+       id="e"
+       width="1.1846154"
+       height="1.2468085"
+       x="-0.092307692"
+       y="-0.10212766"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="10"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset9" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="10"
+         id="feGaussianBlur11" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.311765745 0 0 0 0 0.336514196 0 0 0 0 0.386011096 0 0 0 0.03 0"
+         id="feColorMatrix13" />
+    </filter>
+    <filter
+       id="i"
+       width="1.1846154"
+       height="1.2468085"
+       x="-0.092307692"
+       y="-0.10212766"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="10"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset16" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="10"
+         id="feGaussianBlur18" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.311765745 0 0 0 0 0.336514196 0 0 0 0 0.386011096 0 0 0 0.03 0"
+         id="feColorMatrix20" />
+    </filter>
+    <rect
+       id="d"
+       width="260"
+       height="235"
+       x="0"
+       y="0"
+       rx="4" />
+    <rect
+       id="f"
+       width="260"
+       height="235"
+       x="0"
+       y="0"
+       rx="4" />
+    <rect
+       id="j"
+       width="260"
+       height="235"
+       x="0"
+       y="0"
+       rx="4" />
+    <ellipse
+       id="a"
+       cx="81.039"
+       cy="81.034"
+       rx="81.039"
+       ry="81.034" />
+    <ellipse
+       id="b"
+       cx="81.039"
+       cy="81.034"
+       rx="81.039"
+       ry="81.034" />
+    <mask
+       id="g"
+       width="162.078"
+       height="162.069"
+       x="0"
+       y="0"
+       fill="#fff"
+       maskContentUnits="userSpaceOnUse"
+       maskUnits="objectBoundingBox">
+      <use
+         xlink:href="#a"
+         id="use28" />
+    </mask>
+    <mask
+       id="h"
+       width="162.078"
+       height="162.069"
+       x="0"
+       y="0"
+       fill="#fff"
+       maskContentUnits="userSpaceOnUse"
+       maskUnits="objectBoundingBox">
+      <use
+         xlink:href="#b"
+         id="use31" />
+    </mask>
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     transform="translate(6.7924528,11.100629)"
+     id="g102"
+     inkscape:transform-center-x="114.46541"
+     inkscape:transform-center-y="78.647796">
+    <use
+       fill="#000000"
+       filter="url(#c)"
+       xlink:href="#d"
+       id="use36"
+       transform="rotate(-158.02819,130,122.5)" />
+    <use
+       fill="#ffffff"
+       xlink:href="#d"
+       id="use38"
+       style="fill:#000000;fill-opacity:0" />
+    <g
+       transform="matrix(-0.03043898,1.0122275,0.9871395,0.02596035,27.780895,-12.269715)"
+       id="g76"
+       style="fill:#000000;fill-opacity:0">
+      <use
+         fill="#000000"
+         filter="url(#e)"
+         xlink:href="#f"
+         id="use64"
+         style="fill:#000000;fill-opacity:0" />
+      <use
+         fill="#ffffff"
+         xlink:href="#f"
+         id="use66"
+         style="fill:#000000;fill-opacity:0" />
+      <g
+         transform="translate(49.299,36.466)"
+         id="g74"
+         style="fill:#000000;fill-opacity:0">
+        <ellipse
+           cx="81.039001"
+           cy="81.033997"
+           stroke="#ffffff"
+           stroke-width="40"
+           rx="61.039001"
+           ry="61.034"
+           id="ellipse68"
+           style="fill:#000000;fill-opacity:0" />
+        <use
+           stroke="#f3603c"
+           stroke-dasharray="502"
+           stroke-width="80"
+           mask="url(#g)"
+           xlink:href="#a"
+           id="use70"
+           style="fill:#000000;fill-opacity:0" />
+        <use
+           stroke="#242d52"
+           stroke-dasharray="340"
+           stroke-width="80"
+           mask="url(#h)"
+           xlink:href="#b"
+           id="use72"
+           style="fill:#000000;fill-opacity:0" />
+      </g>
+    </g>
+  </g>
+</svg>

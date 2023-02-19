@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav navbar">
+        <div class="col-md-2 col-sm-2 col-xs-3"><span class="managerCircle"></span> <span class="managerCircle managerCircleRight"></span><br><span class="managerCircle managerCircle2" id="paleRedCircle"></span> <span class="managerCircle managerCircleRight managerCircle2" id="managerCircle"></span><br><br><span class="managerTxt">manage</span></div>
+        <div class="col-xs-3 col-sm-3 col-md-3 burger__menu_Blck"><button onclick="mobile_Menu(1)"><span class="burger_menu burger_menu1"></span><br><span class="burger_menu"></span><br><span class="burger_menu"></span></button> <button onclick="mobile_Menu(0)" hidden><span class="close_menu"></span><span class="close_menu"></span></button></div>
+        <div class="menuBlck container" id="mobile-nav">
+        <ul class="nav navbar-nav">
+            <li class="active menuBtn">Pricing</li>
+            <li class="active menuBtn">Product</li>
+            <li class="active menuBtn thirdBtnNavMenu">About US</li>
+            <li class="active menuBtn fourBtnNavMenu">Careers</li>
+            <li class="active menuBtn fiveBtnNavMenu">Community</li>
+        </ul>
+        </div>
+    <div class="col-md-3 col-sm-3 positionRight"><button class="btn btnTop"><a href="#" class="btnStart"> Get Started</a></button>
+        </div></div>
+        <div class="row padding">
+        <div class="col-md-5 col-sm-5 col-xs-12 greetings aboutProduct">
+            <h1>Bring everyone together to build better products.</h1><br>
+            <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the targer team goals in view</p><br>
+            <button class="btn btnTop2"><a href="#" class="btnStart"> Get Started</a></button>
+        </div>
+        <div class="col-md-5 col-sm-5 col-xs-12 index">
+            <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-5 rating"><hr id="hr_one"><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><div class="ratingLvl"><div class="innerRatingLvl"></div></div><div class="ratingLvl Lvl2"><div class="innerRatingLvl RatingLvlChildnum2"></div></div><div class="ratingLvl Lvl3"><div class="innerRatingLvl RatingLvlChildnum3"></div></div><div class="ratingLvl Lvl4"><div class="innerRatingLvl RatingLvlChildnum4"></div></div><div class="ratingLvl Lvl5"><div class="innerRatingLvl RatingLvlChildnum5"></div></div></div>
+                <div class="col-md-5 col-sm-5 col-xs-5 info"><img src="./illustration-intro.svg" width="250%" style="margin-left: -13%;" alt="" srcset=""></div>
+                <div class="row">
+                    <div class="col-md-5 col-sm-5 col-xs-12 percent">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12 totalScore"><br><br><span>89.74%</span></div>
+                            <div class="row">
+                                <div class="col-md-5 col-sm-5 col-xs-5 diffLastAndToday"><br><br><span>+1.5%</span></div>
+                                <div class="col-md-5 col-sm-5 col-xs-5 indexLastMonth"><br><br><span>88.24%</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div></div>
+        <div class="row padding">
+            <div class="col-md-5 col-sm-5 col-xs-8 greetings">
+                <h1>What's different about Manage?</h1><br>
+                <p>Manage provides all the functionality your team needs, withpout the complexity. Our software is tailor-made for modern digital product teams</p>
+            </div>
+            <div class="col-md-7 col-sm-7 col-xs-8">
+                <div class="row padding withoutTop">
+                    <div class="col-md-12 col-sm-12 col-xs-12 steps"><button class="btn btn-md stepBtn">01</button><h6>Track company-wide progress</h6><br><p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again</p><br></div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 steps"><button class="btn btn-md stepBtn">02</button><h6>Advanced built-in reports</h6><br><p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed</p><br></div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 steps"><button class="btn btn-md stepBtn">03</button><h6>Everything you need in one place</h6><br><p>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p><br></div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br>
+        <center><h3 style="color: hsl(228, 39%, 23%);" id="h3Elem">What they've said</h3></center><br><br><Br>
+        <div class="row SlideMenu">
+            <div class="col-md-12 col-sm-12 col-xs-12" onmouseover="btn(0)" onmouseout="btn(1)">
+            <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-11 saidBlck" id='firstScroll' ><center><img src="./avatar-anisha.png" alt="" class="Avatar_img"></center><br><center><h5>Anisha Li</h5></center><br><p>"Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated"</p></div>
+            <div class="col-md-3 col-sm-3 col-xs-11 saidBlck" id="secondBlck"><center><img src="./avatar-ali.png" alt="" class="Avatar_img"></center><br><center><h5>Ali Bravo</h5></center><br><p>"We have been able to cancel so many other subscriptions since using Manage. There is no more cross-chanell confusion and everyone is much more focused."</p></div>
+            <div class="col-md-3 col-sm-3 col-xs-11 saidBlck" id="thirdBlck"><center><img src="./avatar-richard.png" alt="" class="Avatar_img"></center><br><center><h5>Richard Watts</h5></center><br><p>"Manage allows us to provide structure and process. It keeps us organized and focused. I can't stop recommending them to everyone I talk to!"</p></div>
+            <div class="col-md-3 col-sm-3 col-xs-11 saidBlck" id="secondScroll"><center><img src="./avatar-shanai.png" alt="" class="Avatar_img"></center><br><center><h5>Shanai Gough</h5></center><br><p>"Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive."</p></div>
+        <span class='saidCircle'></span><span class='saidCircle'></span><span class='saidCircle'></span><span class='saidCircle'></span></div>
+        <br><br>
+    </div><button class="btn btnTop3"><a href="#" class="btnStart"> Get Started</a></button></div>
+        <div class="row footerMenuParent">
+            <div class="col-md-12 col-sm-12 col-xs-12 footerItem"><img src="./bg-tablet-pattern copy.svg" style="position: absolute;" alt=""><img src="./bg-tablet-pattern copy.svg" style="position:absolute;" id="ImgfooterItem" alt=""><h2>Simplify how your team works today.</h2>
+                <button class="btn btnTop4"><a href="#" class="btnStart"> Get Started</a></button></div>    
+        <div class="col-md-12 col-sm-12 col-xs-12 footerMenu">
+            <div class="col-md-4 col-sm-4 col-xs-4 footerMenuChild"><span class="circle"></span><span class="circle" id="circle2"></span><br><span class="circle2 circle"></span><span class="circle2 circle" id="paleCircle"></span><p>manage</p><br><br><br><div class="massengerBlck"><img src="./icon-facebook.svg" alt=""><img src="./icon-youtube.svg" alt=""><img src="./icon-twitter.svg" alt=""><img src="./icon-pinterest.svg" alt=""><img src="./icon-instagram.svg" alt=""></div></div>
+            <div class="col-md-8 col-sm-8 col-xs-8"><ul class="footerNav">
+                <li>Home</li>
+                <li>Pricing</li>
+                <li>Products</li>
+                <li id="fourBlck">About US</li>
+            </ul><ul class="footerNav2">
+            <li>Careers</li>
+            <li>Community</li>
+            <li id="fourBlck2">Privacy Policy</li>
+        </ul>
+        </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 footerInbox"><input type="email" placeholder="Updates in your inbox..."><button onclick="inbox()">GO</button><br><span hidden></span><p>Copyright 2020. All Rights Reserved</p></div>
+        </div></div>
+        
+        <script src="./app.js" defer></script></body>
+</html>
