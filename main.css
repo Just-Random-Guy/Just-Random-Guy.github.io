@@ -26,7 +26,7 @@ body {
     background-image: url(./bg-tablet-pattern.svg), url(./bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     position: absolute;
-    background-position-y: 23%, -135%;
+    background-position-y: 150%, -1535%;
     background-position-x: 115%, -60%;
     background-size: 50%;
 }
@@ -1985,11 +1985,20 @@ margin-right: -7.5%;
         visibility: hidden;
     }
     @media (max-width:450px) and (max-height:920px) {
-        body{
-    background-size: 120%, 75% !important;
-    background-position-x: -90%, 240% !important;
-    background-position-y: 35%, -153% !important;
+        
+        .managerTxt {
+            font-size: 30px !important;
+            margin-top: 1% !important;
         }
+    
+        body > div.nav.navbar {
+            height: 5%;
+        }
+            body {
+                background-size: 120%, 75% !important;
+                background-position-x: -90%, 240% !important;
+                background-position-y: -20%, 80% !important;
+            }
         .rating{
         margin-left: -100% !important;
         width: 70% !important;
@@ -2054,11 +2063,6 @@ margin-right: -7.5%;
                 margin-left: -25% !important;
                 width: 70% !important;
             }
-        .managerCircleRight {
-            top: 75% !important;
-            right: 52.2% !important;
-        }
-
         .burger_menu {
             height: 4px !important;
         }
@@ -2137,7 +2141,26 @@ margin-right: -7.5%;
             margin-left: -65% !important;
             margin-top: 605% !important;
         }
+        
+    .managerCircle{
+        width: 9%;
+        margin-top: 55%;
+        height: 15% !important;
+    }
+    .managerCircle2{
+        margin-top:48% !important;
+        margin-right: -22.4%;
+    }
+    .managerCircleRight{
+        margin-right: 4.5% !important;
+    }
+    #managerCircle{
+margin-right: -9% !important;
+    }
         @media (max-width:400px) and (max-height:900px){
+            .managerTxt{
+                margin-top: 2% !important;
+            }
             body{
                 overflow-x: hidden !important;
             }
@@ -2156,6 +2179,12 @@ margin-right: -7.5%;
         #paleCircle {
             margin-top: 300% !important;
             margin-left: 102% !important;
+        }
+        .managerCircle{
+            margin-top: 60%;
+        }
+        .managerCircle2{
+            margin-top: 50% !important;
         }
             body {
                 background-size: 120%, 75% !important;
@@ -2211,7 +2240,23 @@ margin-right: -7.5%;
             .managerTxt{
                 top: 50% !important;
             }
+            
+        body {
+            background-size: 120%, 75% !important;
+            background-position-x: -90%, 245% !important;
+            background-position-y: -20%, 120% !important;
+        }
             @media (max-width:400px) and (max-height:800px) {
+        .managerCircle{
+            margin-top: 60% !important;
+        }
+        .managerCircle2{
+            margin-top: 50% !important;
+        }
+        .managerTxt {
+            font-size: 28px !important;
+            margin-top: 0% !important;
+        }
                 .circle{
                     margin-left: 95.1% !important;
                     margin-top: 307% !important;
@@ -2230,8 +2275,8 @@ margin-right: -7.5%;
                 }
                 body {
                     background-size: 120%, 75% !important;
-                    background-position-x: -90%, 240% !important;
-                    background-position-y: 35%, -175% !important;
+                    background-position-x: -90%, 245% !important;
+                    background-position-y: -20%, 120% !important;
                 }
                 .burger__menu_Blck{
                     right: -10% !important;
@@ -2347,11 +2392,13 @@ margin-right: -7.5%;
             background-color: white;
             margin-left: 7.5% !important;
         }
-    
+        body > div.nav.navbar {
+            height: 5%;
+        }
         body {
             background-size: 120%, 75% !important;
             background-position-x: -90%, 245% !important;
-            background-position-y: 35%, -163% !important;
+            background-position-y: -20%, 120% !important;
         }
          .steps>h6 {
             width: 113%;
@@ -2394,11 +2441,8 @@ margin-right: -7.5%;
             margin-top: 50% !important;
         }
         .managerTxt {
-            position: absolute;
-            left: -2% !important;
             font-size: 28px !important;
-            top: 46% !important;
-            margin-left: 60% !important;
+            margin-top: 0% !important;
         }
     
         .greetings {
@@ -2691,7 +2735,20 @@ margin-right: -7.5%;
             color: red;
             font-style: italic;
         }
-    
+    .managerCircle{
+        width: 9%;
+        margin-top: 61%;
+        height: 14% !important;
+    }
+    .managerCircle2{
+        margin-right: -24%;
+    }
+    .managerCircleRight{
+        margin-right: 6% !important;
+    }
+    #managerCircle{
+margin-right: -9% !important;
+    }
         .footerInbox>button {
             box-shadow: none;
             left: -55% !important;
