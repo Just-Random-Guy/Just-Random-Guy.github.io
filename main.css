@@ -7,17 +7,22 @@
     background-color: hsl(228, 39%, 23%);
     top: 100%;
 }
-body > div.nav.navbar{
-    height: 20.03%;
-}
+
 .close_menu:nth-child(2) {
     rotate: -45deg !important;
 }
-body,html{
-    height:100%;
+.circleBlck{
+    background-color: transparent;
+    width: 13%;
+    margin-right: 25%;
+    float: right;
+    margin-bottom: 5%;
+    margin-top: 35%;
+    padding-bottom: 6%;
 }
-body > div.nav.navbar > div.col-md-2.col-sm-2.col-xs-3{
-    height:100%;
+.circleBlck2{
+    margin-top:32%;
+    margin-right: -13%;
 }
 body {
     font-family: 'Be Vietnam Pro';
@@ -26,7 +31,7 @@ body {
     background-image: url(./bg-tablet-pattern.svg), url(./bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     position: absolute;
-    background-position-y: 150%, -1535%;
+    background-position-y: 23%, -135%;
     background-position-x: 115%, -60%;
     background-size: 50%;
 }
@@ -47,7 +52,7 @@ body {
     cursor: pointer;
     color: rgb(33, 37, 47);
     margin-left:8%;
-    padding-top: 13.5%;
+    padding-top: 12.5%;
 }
 
 .scroll {
@@ -268,12 +273,29 @@ body {
 .padding {
     padding-left: 130px;
     padding-top: 65px;
+    height: 80%;
 }
-
+.index{
+    height:100%;
+}
+.index>.row{
+    height: 100%;
+}
+.info,.rating.percent{
+    height:40%;
+}
+.percent{
+    height:40%;
+}
 .index {
     padding-left: 150px;
 }
-
+.index>div>.row{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
 .rating {
     box-shadow: 0px 0px 15px rgb(33, 37, 47);
     width: 50%;
@@ -396,10 +418,11 @@ body {
     background-color: rgb(249,250,250);
     outline: 10px white solid;
 }
+
 .totalScore {
     border-radius: 5px 5px 5px 5px;
     background-color: hsl(0, 0%, 98%);
-    height: 80px;
+    padding-bottom: 3%;
     color: black;
 }
 
@@ -413,15 +436,14 @@ body {
     margin-top: 5%;
     border-radius: 5px 5px 5px 5px;
     margin-left: 2%;
-    height: 60px;
+    padding-bottom: 4%;
 }
-
 .diffLastAndToday {
     border-radius: 5px 5px 5px 5px;
     background-color: hsl(12, 88%, 59%);
     margin-top: 5%;
-    margin-left: 8%;
-    height: 60px;
+    margin-left: 7.5%;
+padding-bottom: 4%;
     color: white;
 }
 
@@ -442,24 +464,21 @@ body {
     background-color: rgb(235, 178, 169);
 }
 
-.managerCircle {
+.managerCircle{
     background-color: hsl(12, 88%, 59%);
-    width: 3%;
-    height: 5%;
-    margin-top: 39%;
-    margin-right: 25%;
-    float: right;
+    width: 4%;
+    padding-bottom: 4%;
+    margin-left: 0.5%;
+    position: absolute;
     border-radius: 100px 100px 100px 100px;
 }
 .managerCircle2{
-    margin-top: 34.5% ;
-margin-right: -7.5%;
+    margin-left: 6%;
+    width: 3.5%;
+    padding-bottom: 4%;
 }
-.managerCircleRight{
-    margin-right: 1.5%;
-}
-#managerCircle{
-    margin-right: -3%;
+.managerCircle3{
+    background-color: rgb(249, 143, 117);
 }
 @media (max-width:1100px) and (max-height:600px) {
     .footerItem>h2 {
@@ -1985,20 +2004,11 @@ margin-right: -7.5%;
         visibility: hidden;
     }
     @media (max-width:450px) and (max-height:920px) {
-        
-        .managerTxt {
-            font-size: 30px !important;
-            margin-top: 1% !important;
+        body{
+    background-size: 120%, 75% !important;
+    background-position-x: -90%, 240% !important;
+    background-position-y: 35%, -153% !important;
         }
-    
-        body > div.nav.navbar {
-            height: 5%;
-        }
-            body {
-                background-size: 120%, 75% !important;
-                background-position-x: -90%, 240% !important;
-                background-position-y: -20%, 80% !important;
-            }
         .rating{
         margin-left: -100% !important;
         width: 70% !important;
@@ -2063,6 +2073,11 @@ margin-right: -7.5%;
                 margin-left: -25% !important;
                 width: 70% !important;
             }
+        .managerCircleRight {
+            top: 75% !important;
+            right: 52.2% !important;
+        }
+
         .burger_menu {
             height: 4px !important;
         }
@@ -2141,29 +2156,7 @@ margin-right: -7.5%;
             margin-left: -65% !important;
             margin-top: 605% !important;
         }
-        
-    .managerCircle{
-        width: 9%;
-        margin-top: 55%;
-        height: 15% !important;
-    }
-    .managerCircle2{
-        margin-top:48% !important;
-        margin-right: -22.4%;
-    }
-    .managerCircleRight{
-        margin-right: 4.5% !important;
-    }
-    #managerCircle{
-margin-right: -9% !important;
-    }
         @media (max-width:400px) and (max-height:900px){
-            .managerTxt{
-                margin-top: 2% !important;
-            }
-            body{
-                overflow-x: hidden !important;
-            }
             .circle{
             margin-left: 95.1% !important;
             margin-top: 305% !important;
@@ -2179,12 +2172,6 @@ margin-right: -9% !important;
         #paleCircle {
             margin-top: 300% !important;
             margin-left: 102% !important;
-        }
-        .managerCircle{
-            margin-top: 60%;
-        }
-        .managerCircle2{
-            margin-top: 50% !important;
         }
             body {
                 background-size: 120%, 75% !important;
@@ -2240,23 +2227,7 @@ margin-right: -9% !important;
             .managerTxt{
                 top: 50% !important;
             }
-            
-        body {
-            background-size: 120%, 75% !important;
-            background-position-x: -90%, 245% !important;
-            background-position-y: -20%, 120% !important;
-        }
             @media (max-width:400px) and (max-height:800px) {
-        .managerCircle{
-            margin-top: 60% !important;
-        }
-        .managerCircle2{
-            margin-top: 50% !important;
-        }
-        .managerTxt {
-            font-size: 28px !important;
-            margin-top: 0% !important;
-        }
                 .circle{
                     margin-left: 95.1% !important;
                     margin-top: 307% !important;
@@ -2275,8 +2246,8 @@ margin-right: -9% !important;
                 }
                 body {
                     background-size: 120%, 75% !important;
-                    background-position-x: -90%, 245% !important;
-                    background-position-y: -20%, 120% !important;
+                    background-position-x: -90%, 240% !important;
+                    background-position-y: 35%, -175% !important;
                 }
                 .burger__menu_Blck{
                     right: -10% !important;
@@ -2392,13 +2363,11 @@ margin-right: -9% !important;
             background-color: white;
             margin-left: 7.5% !important;
         }
-        body > div.nav.navbar {
-            height: 5%;
-        }
+    
         body {
             background-size: 120%, 75% !important;
             background-position-x: -90%, 245% !important;
-            background-position-y: -20%, 120% !important;
+            background-position-y: 35%, -163% !important;
         }
          .steps>h6 {
             width: 113%;
@@ -2441,8 +2410,11 @@ margin-right: -9% !important;
             margin-top: 50% !important;
         }
         .managerTxt {
+            position: absolute;
+            left: -2% !important;
             font-size: 28px !important;
-            margin-top: 0% !important;
+            top: 46% !important;
+            margin-left: 60% !important;
         }
     
         .greetings {
@@ -2735,20 +2707,7 @@ margin-right: -9% !important;
             color: red;
             font-style: italic;
         }
-    .managerCircle{
-        width: 9%;
-        margin-top: 61%;
-        height: 14% !important;
-    }
-    .managerCircle2{
-        margin-right: -24%;
-    }
-    .managerCircleRight{
-        margin-right: 6% !important;
-    }
-    #managerCircle{
-margin-right: -9% !important;
-    }
+    
         .footerInbox>button {
             box-shadow: none;
             left: -55% !important;
@@ -3149,9 +3108,9 @@ a:hover {
 .managerTxt {
     color: hsl(228, 39%, 23%);
     font-size: 250%;
-    margin-left: 115%;
-    margin-top: -460%;
-    float: left;
+    margin-top: 17.5%;
+    margin-right: -80%;
+    float: right;
 }
 
 .scrollBtn {
