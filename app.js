@@ -1,6 +1,10 @@
 let scet=0;
 let i =0;
 let b =2;
+let positionOnclick = undefined;
+let positionMove = undefined;
+let positionDiff = undefined;
+let endPosition = 0;
 let classes=['firstScroll','secondBlck','thirdBlck','secondScroll']
 if(window.innerWidth<=760&&window.innerHeight<=600){
 document.querySelectorAll('.saidBlck')[1].setAttribute('style','left:150%;')
@@ -13,7 +17,31 @@ if(window.outerWidth<=770&&window.outerHeight<=1000){
     console.log(55)
     document.querySelector('.menuBlck').setAttribute('style','margin-left: 150%;')
 }
-
+function a(a){
+    positionOnclick = a.clientX;
+}
+function bet(b) {
+    if(positionOnclick!=undefined&&document.querySelector('.SlideBlck').getAttribute){
+    positionMove = b.clientX;
+    positionDiff = positionOnclick-positionMove;
+    if(endPosition-positionDiff/document.querySelector('.SlideBlck').clientWidth*100<=9.5&&endPosition-positionDiff/document.querySelector('.SlideBlck').clientWidth*100>=-43.5)
+        document.querySelector('.SlideBlck').setAttribute('style',`margin-left: calc(${endPosition}% - (${positionDiff/document.querySelector('.SlideBlck').clientWidth*100}%));`)}
+    }
+function c() {
+    if(positionDiff!=undefined){
+    positionOnclick=undefined;
+    endPosition -= positionDiff/document.querySelector('.SlideBlck').clientWidth*100
+    if(endPosition< -43.5){
+        endPosition=-43.5
+    }
+    if(endPosition>9.5){
+        endPosition=9.5
+    }
+    console.log(endPosition)
+    positionDiff= undefined;
+    document.querySelector('.SlideBlck').setAttribute('style',`margin-left: ${endPosition}%;`)
+}}
+// Number(document.querySelector('.SlideBlck').getAttribute('style').split(': ')[1].split('%;')[0])
 function mobile_Menu(a) {
     if(a==1){
         document.querySelector('[onclick="mobile_Menu(1)"]').setAttribute('hidden','')
