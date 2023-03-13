@@ -24,18 +24,18 @@ function bet(b) {
     if(positionOnclick!=undefined&&document.querySelector('.SlideBlck').getAttribute){
     positionMove = b.clientX;
     positionDiff = positionOnclick-positionMove;
-    if(endPosition-positionDiff/document.querySelector('.SlideBlck').clientWidth*100<=9.5&&endPosition-positionDiff/document.querySelector('.SlideBlck').clientWidth*100>=-43.5)
+    if(endPosition-positionDiff/document.querySelector('.SlideBlck').clientWidth*100<=10.5&&endPosition-positionDiff/document.querySelector('.SlideBlck').clientWidth*100>=-49.5)
         document.querySelector('.SlideBlck').setAttribute('style',`margin-left: calc(${endPosition}% - (${positionDiff/document.querySelector('.SlideBlck').clientWidth*100}%));`)}
     }
 function c() {
     if(positionDiff!=undefined){
     positionOnclick=undefined;
     endPosition -= positionDiff/document.querySelector('.SlideBlck').clientWidth*100
-    if(endPosition< -43.5){
-        endPosition=-43.5
+    if(endPosition< -49.5){
+        endPosition=-49.5
     }
-    if(endPosition>9.5){
-        endPosition=9.5
+    if(endPosition>10.5){
+        endPosition=10.5
     }
     console.log(endPosition)
     positionDiff= undefined;
@@ -60,7 +60,7 @@ function inbox(){
     if(document.querySelector('[type="email"]').value.split('@')[0].length<6&&emailService.includes(document.querySelector('[type="email"]').value.split('@')[1])==false){
         document.querySelector('.footerInbox').children[3].removeAttribute('hidden')
         document.querySelector('.footerInbox').children[3].innerHTML="Please insert a valid email"
-        document.querySelector('.footerInbox').children[0].setAttribute('style','border:1px red solid;color:red;')
+        document.querySelector('.footerInbox').children[0].setAttribute('style','border:1px red solid;border-bottom:3px red solid;border-top:2px red solid;border-right:2px red solid;color:red;')
     }
     if(document.querySelector('[type="email"]').value.split('@')[0].length>=6&&emailService.includes(document.querySelector('[type="email"]').value.split('@')[1])==true){
         document.querySelector('.footerInbox').children[3].setAttribute('hidden','');
