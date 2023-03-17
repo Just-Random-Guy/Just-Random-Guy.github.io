@@ -1,0 +1,99 @@
+@keyframes scrollLeft {
+    from {
+        margin-left: 2%;
+    }
+
+    to {
+        margin-left: -30%;
+    }
+}
+@keyframes scrolling {
+    from {
+        margin-left: 120%;
+    }
+
+    to {
+        margin-left: 69%;
+    }
+}
+@keyframes scrollRight {
+    from {
+        margin-left: -30%;
+    }
+
+    to {
+        margin-left: 2%;
+    }
+}
+@keyframes scrolling2 {
+    from {
+        margin-left: 67%;
+    }
+
+    to {
+        margin-left: 120%;
+    }
+}
+@keyframes mobilemenu {
+    from {
+        margin-left: 150%;
+    }
+
+    to {
+        margin-left: 37%;
+    }
+}
+@keyframes mobilemenu2 {
+    from {
+        margin-left: 40%
+    }
+
+    to {
+        margin-left: 150%;
+    }
+}
+@keyframes scrollMobile {
+    from {
+        left: -5%;
+    }
+
+    to {
+        left: -150%;
+    }
+}
+@keyframes scrollMobile2 {
+    from {
+        left: 150%;
+    }
+
+    to {
+        left: -5%;
+    }
+}
+@keyframes scrollMobile3 {
+    from {
+        left: -150%;
+    }
+
+    to {
+        left: -5%;
+    }
+}
+@keyframes scrollMobile4 {
+    from {
+        left: -5%;
+    }
+
+    to {
+        left: 150%;
+    }
+}
+@font-face {
+    font-family: 'Be Vietnam Pro Light';
+    src: url(./BeVietnamPro-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url(./BeVietnamPro-Bold.ttf);
+}

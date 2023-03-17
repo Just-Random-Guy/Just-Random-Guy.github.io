@@ -1,3 +1,73 @@
+.Avatar_img {
+    width: 15%;
+    margin-top: -8%;
+}
+.burger__menu_Blck {
+    visibility: hidden;
+}
+.btnTop {
+    position: absolute;
+    width: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    bottom: 0%;
+    right: 10%;
+    border-radius: 50px 50px 50px 50px;
+    background-color: hsl(12, 88%, 59%);
+}
+.btnStart {
+    color: white;
+    font-size: 9px;
+}
+.btnTop:hover {
+    background-color: hsla(12, 88%, 59%, 0.6);
+}
+.btnTop2 {
+    position: absolute;
+    margin-top: 3%;
+    left: 2%;
+    width: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 50px 50px 50px 50px;
+    background-color: hsl(12, 88%, 59%);
+}
+.btnTop2:hover {
+    background-color: hsla(12, 88%, 59%, 0.6);
+}
+.btnTop3 {
+    position: absolute;
+    bottom: -35%;
+    left: 45%;
+    width: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 50px 50px 50px 50px;
+    background-color: hsl(12, 88%, 59%);
+
+}
+.btnTop3:hover {
+    background-color: hsla(12, 88%, 59%, 0.6);
+}
+.btnTop4 {
+    width: 9%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    margin-left: 82%;
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    padding: 1% 0 !important;
+    border: none;
+    outline: none;
+}
+.btnTop4>.btnStart {
+    font-size: 71.4%;
+    color: hsl(12, 88%, 59%);
+}
+.btnTop4:hover a {
+    color: hsla(12, 88%, 59%, 0.6);
+}
 .close_menu {
     height: 3px;
     padding-bottom: 1px !important;
@@ -11,23 +81,7 @@
 .close_menu:nth-child(2) {
     rotate: -45deg !important;
 }
-.SlideMenu{
-    margin-top: 5%;
-    position: relative;
-    cursor:pointer;
-    -webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
--o-user-select: none;
-user-select: none;
-}
-#firstScroll{
-    margin-left: -4.5%;
-}
-.SlideBlck{
-    margin-top: 6%;
-}
+
 .CircleChild1{
     height: 9px;
     border-radius: 25px;
@@ -57,6 +111,23 @@ user-select: none;
 .CircleBlckChild2{
     margin-top: 0%;
 }
+.SlideMenu{
+    margin-top: 5%;
+    position: relative;
+    cursor:pointer;
+    -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+#firstScroll{
+    margin-left: -4.5%;
+}
+.SlideBlck{
+    margin-top: 6%;
+}
 body {
     font-family: 'Be Vietnam Pro';
     font-size: 120%;
@@ -69,10 +140,6 @@ body {
     background-size: 50%;
 }
 
-@font-face {
-    font-family: 'Be Vietnam Pro Light';
-    src: url(./BeVietnamPro-Light.ttf);
-}
 
 .menuBlck {
     width: 100%;
@@ -94,17 +161,6 @@ body {
     overflow-wrap: normal;
     overflow-x: scroll;
 }
-
-@keyframes scrollLeft {
-    from {
-        margin-left: 2%;
-    }
-
-    to {
-        margin-left: -30%;
-    }
-}
-
 #scrollBtn2 {
     right: 2%;
 }
@@ -218,36 +274,8 @@ body {
     margin-top: -35%;
     margin-left: 80%;
 }
-
-.btnTop4 {
-    width: 9%;
-    margin: auto;
-    position: relative;
-    top: 50%;
-    margin-left: 82%;
-    border-radius: 50px 50px 50px 50px;
-    background-color: white;
-    padding: 1% 0 !important;
-    border: none;
-    outline: none;
-}
 .footerItem{
     position: relative;
-}
-.btnTop4>.btnStart {
-    font-size: 71.4%;
-    color: hsl(12, 88%, 59%);
-}
-.btnTop3 {
-    position: absolute;
-    bottom: -35%;
-    left: 45%;
-    width: 10%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-radius: 50px 50px 50px 50px;
-    background-color: hsl(12, 88%, 59%);
-
 }
 .scrollBtn {
     margin-left: 2%;
@@ -257,37 +285,6 @@ body {
     width: 5%;
     position: absolute;
 }
-
-@keyframes scrolling {
-    from {
-        margin-left: 120%;
-    }
-
-    to {
-        margin-left: 69%;
-    }
-}
-
-@keyframes scrollRight {
-    from {
-        margin-left: -30%;
-    }
-
-    to {
-        margin-left: 2%;
-    }
-}
-
-@keyframes scrolling2 {
-    from {
-        margin-left: 67%;
-    }
-
-    to {
-        margin-left: 120%;
-    }
-}
-
 #firstScroll {
     margin-left: -4.5%;
     border-left: 0px black solid;
@@ -295,15 +292,6 @@ body {
 
 .saidBlck>center>h5 {
     color: hsl(228, 39%, 23%)
-}
-
-.Avatar_img {
-    width: 15%;
-    margin-top: -8%;
-}
-
-.burger__menu_Blck {
-    visibility: hidden;
 }
 
 .saidBlck>p {
@@ -334,16 +322,6 @@ body {
 .greetings {
     color: hsl(228, 39%, 23%);
 }
-@keyframes mobilemenu {
-    from {
-        margin-left: 150%;
-    }
-
-    to {
-        margin-left: 37%;
-    }
-}
-
 .greetings>p {
     font-family: 'Be Vietnam Pro Light';
     font-size: 100%;
@@ -540,7 +518,7 @@ body{
 .indexLastMonth {
     background-color: hsl(0, 0%, 98%);
     border-radius: 5px 5px 5px 5px;
-    margin-top: 2%;
+    margin-top: -4%;
     height:35%;
     margin-right: -2.5%;
     width: 50%;
@@ -554,7 +532,7 @@ body{
     align-items: flex-end;
     border-radius: 5px 5px 5px 5px;
     background-color: hsl(12, 88%, 59%);
-    margin-top: 2%;
+    margin-top: -4%;
     height:35%;
     margin-left: -2.5%;
     float: left;
@@ -580,2394 +558,6 @@ margin-bottom: 5%;
     bottom: 10%;
     margin-left: 23%;
 }
-
-@media (max-width:1100px) and (max-height:600px) {
-    .footerItem>h2 {
-        margin-top: 5.5% !important;
-    }
-
-    .stepBtn {
-        font-size: 85% !important;
-    }
-
-    .index>div>div.row>div>div>div>span {
-        font-size: 170% !important;
-    }
-
-    .btnTop4 {
-        margin-top: 6% !important;
-    }
-
-    .scrollBtn {
-        margin-top: -5% !important;
-    }
-
-    .rating {
-        margin-left: -15% !important;
-    }
-
-    .info {
-        margin-left: 15% !important;
-    }
-
-    #fourBlck {
-        width: 9% !important;
-    }
-
-    #fourBlck2 {
-        width: 20% !important;
-    }
-
-    .footerInbox>button {
-        top: -350%;
-        width: 15% !important;
-    }
-
-    .footerInbox>input {
-        width: 55% !important;
-        top: -350% !important;
-    }
-
-    .footerInbox>p {
-        margin-left: 130% !important;
-    }
-
-    .footerNav {
-        margin-top: 13% !important;
-    }
-
-    .footerNav2 {
-        margin-top: -17% !important;
-    }
-
-    .circle {
-        margin-left: 23.5%;
-        margin-top: 24.7% !important;
-    }
-
-    #circle2 {
-        margin-left: 25.4%;
-    }
-
-    .circle2 {
-        margin-top: 21.7% !important;
-    }
-
-    #paleCircle {
-        margin-left: 25.4%;
-        background-color: rgb(235, 178, 169);
-    }
-
-    .footerMenuChild>p {
-        margin-top: 15.2% !important;
-    }
-
-    .footerMenu {
-        margin-top: -13.7% !important;
-    }
-
-    #ImgfooterItem {
-        margin-top: -33% !important;
-    }
-
-    .btnTop4 {
-        width: 13% !important;
-    }
-
-
-    .saidBlck>p {
-        font-size: 10px !important;
-    }
-
-    .steps {
-        margin-left: -20%;
-    }
-
-    .steps>p {
-        width: 100% !important;
-        margin-left: 20% !important;
-    }
-
-    body {
-        background-position-y: 5%, -180% !important;
-        background-position-x: 120%, -50% !important;
-    }
-
-    .ratingLvl {
-        top: 47% !important;
-        margin-left: -10%;
-    }
-
-    .innerRatingLvl {
-        top: 65% !important;
-    }
-
-    .RatingLvlChildnum2 {
-        top: 80% !important;
-        height: 42px !important;
-    }
-
-    .RatingLvlChildnum3 {
-        height: 27px !important;
-        top: -17% !important;
-    }
-
-    .RatingLvlChildnum4 {
-        height: 28px;
-        top: 60% !important;
-    }
-
-    .RatingLvlChildnum5 {
-        top: -70% !important;
-        height: 30px;
-    }
-
-    .Lvl2 {
-        top: 28% !important;
-        margin-left: 9% !important;
-    }
-
-    .Lvl3 {
-        top: 55% !important;
-        height: 52px !important;
-        margin-left: 29% !important;
-    }
-
-    .Lvl4 {
-        top: 20% !important;
-        margin-left: 50% !important;
-    }
-
-    .Lvl5 {
-        top: 62% !important;
-        margin-left: 68% !important;
-    }
-
-    .rating {
-        height: 130px !important;
-    }
-
-    .info {
-        height: 130px !important;
-    }
-
-
-    .rating>hr {
-        margin-left: -17% !important;
-        width: 135% !important;
-        margin-top: 14% !important;
-    }
-
-    .managerCircleRight {
-        right: 40% !important;
-    }
-
-    .btnTop {
-        margin-top: -15% !important;
-    }
-
-    .menuBlck {
-        padding-left: 18%;
-    }
-}
-
-@media (max-width:1000px) and (max-height:600px) {
-    .menuBtn {
-        width: 10% !important;
-        margin-left: 6% !important;
-        font-size: 9px !important;
-        padding-left: 45px !important;
-    }
-
-    .thirdBtnNavMenu {
-        width: 24% !important;
-    }
-
-    .fourBtnNavMenu {
-        margin-left: -5% !important;
-    }
-
-    .rating>hr {
-        margin-left: -25% !important;
-        width: 145% !important;
-        margin-top: 23% !important;
-    }
-
-    .rating {
-        margin-left: -15% !important;
-    }
-
-    .info {
-        margin-left: 15% !important;
-    }
-
-    #fourBlck {
-        width: 9% !important;
-    }
-
-    #fourBlck2 {
-        width: 20% !important;
-    }
-
-    .footerInbox>button {
-        top: -420% !important;
-        right: -172% !important;
-        width: 15% !important;
-    }
-
-    .footerInbox>input {
-        width: 55% !important;
-        right: -155% !important;
-        top: -420% !important;
-    }
-
-    .footerInbox>p {
-        margin-left: 240% !important;
-        width: 90% !important;
-    }
-
-    .footerNav {
-        margin-top: 13% !important;
-    }
-
-    .footerNav2 {
-        margin-top: -17% !important;
-    }
-
-    .percent {
-        height: 100px !important;
-        margin-top: 15% !important;
-    }
-
-    .circle {
-        margin-left: 23.5%;
-        margin-top: 24.7% !important;
-    }
-
-    #circle2 {
-        margin-left: 25.4%;
-    }
-
-    .circle2 {
-        margin-top: 21.7% !important;
-    }
-
-    #paleCircle {
-        margin-left: 25.4%;
-        background-color: rgb(235, 178, 169);
-    }
-
-    .footerMenuChild>p {
-        margin-top: 15.2% !important;
-    }
-
-    .footerMenu {
-        margin-top: -13.7% !important;
-    }
-
-    #ImgfooterItem {
-        margin-top: -33% !important;
-    }
-
-    .btnTop4 {
-        width: 13% !important;
-    }
-
-
-    .totalScore>span {
-        margin-left: -10% !important;
-    }
-
-    .index>div>div.row>div>div>div>span {
-        font-size: 17px !important;
-    }
-
-    .saidBlck>p {
-        font-size: 8.6px !important;
-    }
-
-    .diffLastAndToday>span {
-        margin-left: -40% !important;
-        font-size: 9px !important;
-    }
-
-    .indexLastMonth>span {
-        margin-left: -40% !important;
-        font-size: 9px !important;
-    }
-
-    .steps {
-        margin-left: -20%;
-    }
-
-    .steps>p {
-        width: 100% !important;
-        margin-left: 20% !important;
-    }
-
-    body {
-        background-position-y: 5%, -260% !important;
-        background-position-x: 120%, -50% !important;
-    }
-
-    .ratingLvl {
-        top: 47% !important;
-        margin-left: -15% !important;
-    }
-
-    .innerRatingLvl {
-        top: 65% !important;
-    }
-
-    .RatingLvlChildnum2 {
-        top: 90% !important;
-        height: 32px !important;
-    }
-
-    .RatingLvlChildnum3 {
-        height: 27px !important;
-        top: -17% !important;
-    }
-
-    .RatingLvlChildnum4 {
-        height: 28px;
-        top: 60% !important;
-    }
-
-    .RatingLvlChildnum5 {
-        top: -70% !important;
-        height: 30px;
-    }
-
-    .Lvl2 {
-        top: 28% !important;
-        margin-left: 7% !important;
-    }
-
-    .Lvl3 {
-        top: 45% !important;
-        height: 52px !important;
-        margin-left: 27% !important;
-    }
-
-    .Lvl4 {
-        top: 20% !important;
-        margin-left: 48% !important;
-    }
-
-    .Lvl5 {
-        top: 62% !important;
-        margin-left: 66% !important;
-    }
-
-    .rating {
-        height: 100px !important;
-    }
-
-    .info {
-        height: 100px !important;
-        padding-top: 3% !important;
-    }
-
-
-    .managerCircle {
-        right: 37% !important;
-    }
-
-    .managerCircleRight {
-        right: 44.5% !important;
-    }
-
-    .btnTop {
-        margin-top: -20% !important;
-        width: 50% !important;
-    }
-
-    .btnTop2 {
-        width: 30% !important;
-    }
-
-    .stepBtn {
-        width: 16% !important;
-    }
-
-    .menuBlck {
-        padding-left: 18%;
-    }
-
-    .footerItem {
-        height: 250px !important;
-    }
-
-    .footerItem>img {
-        left: 11% !important;
-        top: 15% !important;
-    }
-
-    #ImgfooterItem {
-        left: 5% !important;
-    }
-}
-
-@media (max-width:1000px) and (max-height:500px) {
-    .rating {
-        margin-left: -15% !important;
-    }
-
-    .info {
-        margin-left: 15% !important;
-    }
-
-    #fourBlck {
-        width: 9% !important;
-    }
-
-    #fourBlck2 {
-        width: 20% !important;
-    }
-
-    .footerInbox>button {
-        top: -350%;
-        width: 15% !important;
-    }
-
-    .footerInbox>input {
-        width: 55% !important;
-        top: -350% !important;
-    }
-
-    .footerInbox>p {
-        margin-left: 130% !important;
-        width: 90% !important;
-    }
-
-    .footerNav {
-        margin-top: 13% !important;
-    }
-
-    .footerNav2 {
-        margin-top: -17% !important;
-    }
-
-    .circle {
-        margin-left: 23.5%;
-        margin-top: 24.7% !important;
-    }
-
-    #circle2 {
-        margin-left: 25.4%;
-    }
-
-    .circle2 {
-        margin-top: 21.7% !important;
-    }
-
-    #paleCircle {
-        margin-left: 25.4%;
-        background-color: rgb(235, 178, 169);
-    }
-
-    .footerMenuChild>p {
-        margin-top: 15.2% !important;
-    }
-
-    .footerMenu {
-        margin-top: -13.7% !important;
-    }
-
-    #ImgfooterItem {
-        margin-top: -33% !important;
-    }
-
-    .btnTop4 {
-        width: 13% !important;
-    }
-
-
-    .saidBlck>p {
-        font-size: 10px !important;
-    }
-
-    .steps {
-        margin-left: -20%;
-    }
-
-    .steps>p {
-        width: 100% !important;
-        margin-left: 20% !important;
-    }
-
-    body {
-        background-position-y: 5%, -180% !important;
-        background-position-x: 120%, -50% !important;
-    }
-
-    .ratingLvl {
-        top: 47% !important;
-        margin-left: -10%;
-    }
-
-    .innerRatingLvl {
-        top: 65% !important;
-    }
-
-    .RatingLvlChildnum2 {
-        top: 80% !important;
-        height: 42px !important;
-    }
-
-    .RatingLvlChildnum3 {
-        height: 27px !important;
-        top: -17% !important;
-    }
-
-    .RatingLvlChildnum4 {
-        height: 28px;
-        top: 60% !important;
-    }
-
-    .RatingLvlChildnum5 {
-        top: -70% !important;
-        height: 30px;
-    }
-
-    .Lvl2 {
-        top: 28% !important;
-        margin-left: 9% !important;
-    }
-
-    .Lvl3 {
-        top: 55% !important;
-        height: 52px !important;
-        margin-left: 29% !important;
-    }
-
-    .Lvl4 {
-        top: 20% !important;
-        margin-left: 50% !important;
-    }
-
-    .Lvl5 {
-        top: 62% !important;
-        margin-left: 68% !important;
-    }
-
-    .rating {
-        height: 130px !important;
-    }
-
-    .info {
-        height: 130px !important;
-    }
-    .rating>hr {
-        margin-left: -17% !important;
-        width: 135% !important;
-        margin-top: 14% !important;
-    }
-
-    .managerCircleRight {
-        right: 40% !important;
-    }
-
-    .btnTop {
-        margin-top: -15% !important;
-    }
-
-    .menuBlck {
-        padding-left: 18%;
-    }
-}
-
-.saidCircle {
-    visibility: hidden;
-}
-
-@media (max-width:760px) and (max-height:600px) {
-
-    .burger_menu {
-        margin-top: -5% !important;
-    }
-
-    .burger_menu1 {
-        margin-top: 0% !important;
-
-    }
-
-    .burger_menu:nth-child(5) {
-        margin-top: -10% !important;
-    }
-
-    .burger__menu_Blck>button {
-        background-color: transparent;
-        outline: none;
-        border: none;
-        box-shadow: none;
-    }
-
-    .burger__menu_Blck {
-        right: -15% !important;
-        top: 55% !important;
-    }
-
-    .saidCircle {
-        visibility: visible;
-        position: absolute;
-        margin-top: 25% !important;
-        left: 47% !important;
-        width: 0.8% !important;
-        border-radius: 150px 150px 150px 150px !important;
-        background-color: hsl(12, 88%, 59%);
-        border: 1px hsl(12, 88%, 59%) solid;
-        height: 7px !important;
-    }
-
-    body>div.row.SlideMenu>div>div>span:nth-child(6) {
-        background-color: white;
-        margin-left: 1.5% !important;
-    }
-
-    body>div.row.SlideMenu>div>div>span:nth-child(7) {
-        background-color: white;
-        margin-left: 3% !important;
-    }
-
-    body>div.row.SlideMenu>div>div>span:nth-child(8) {
-        background-color: white;
-        margin-left: 4.5% !important;
-    }
-
-    body {
-        background-size: 99%, 65% !important;
-        background-position-x: 2800%, 175% !important;
-        background-position-y: 35%, -125% !important;
-    }
-    .steps>h6 {
-        width: 110%;
-        margin-left: 12% !important;
-        margin-top: 0% !important;
-        padding-top: 9px;
-        padding-left: 16px;
-        padding-bottom: 6px;
-        background-color: rgb(255, 240, 235);
-    }
-
-    .steps {
-        line-height: 200% !important;
-        margin-left: -12% !important;
-    }
-
-    .btnTop3 {
-        margin-left: -2% !important;
-        width: 15% !important;
-    }
-
-    body>div:nth-child(3)>div.col-md-7.col-sm-7.col-xs-8>div>div>p {
-        margin-left: 4% !important;
-    }
-
-    .managerCircleRight {
-        right: 42% !important;
-    }
-
-    .greetings {
-        margin-left: 5% !important;
-        text-align: center;
-        padding: 0 !important;
-    }
-
-    .greetings>h1 {
-        line-height: 150% !important;
-    }
-
-    .greetings>p {
-        line-height: 200% !important;
-    }
-
-    .aboutProduct>h1 {
-        line-height: 100% !important;
-    }
-
-    .rating {
-        margin-left: -10% !important;
-        height: 150px !important;
-        width: 40% !important;
-    }
-
-    #hr_one {
-        margin-top: 6% !important;
-    }
-
-    .ratingLvl {
-        margin-left: -3.5% !important;
-    }
-
-    .info {
-        margin-left: 6% !important;
-        height: 150px !important;
-        width: 40% !important;
-    }
-
-    .percent {
-        margin-top: 7% !important;
-        margin-left: 15% !important;
-        height: 150px !important;
-        width: 40% !important;
-    }
-
-    .totalScore {
-        font-size: 12px !important;
-    }
-
-    .diffLastAndToday {
-        font-size: 10px !important;
-        margin-left: 5% !important;
-    }
-
-    .diffLastAndToday>span {
-        font-size: 18px !important;
-        margin-left: -5% !important;
-    }
-
-    .indexLastMonth {
-        font-size: 10px !important;
-        margin-left: 5% !important;
-    }
-
-    .indexLastMonth>span {
-        font-size: 18px !important;
-        margin-left: -5% !important;
-    }
-
-    .index>div>div.row>div>div>div>span {
-        font-size: 30px !important;
-        margin-left: 3% !important;
-        top: -25% !important;
-    }
-
-    .index {
-        margin-top: 0% !important;
-    }
-
-    .greetings {
-        margin-left: 16% !important;
-        margin-top: 70% !important;
-    }
-
-    .greetings>P {
-        margin-left: -20% !important;
-    }
-
-    .scrollBtn {
-        box-shadow: none;
-    }
-
-    .stepBtn {
-        box-shadow: none;
-    }
-
-    .greetings>h1 {
-        width: 80% !important;
-    }
-
-    .aboutProduct {
-        position: absolute;
-        left: 30% !important;
-        margin-top: 65% !important;
-    }
-
-    .aboutProduct>button {
-        margin-left: 26% !important;
-    }
-
-
-    .Lvl2 {
-        margin-left: 16% !important;
-    }
-
-    .Lvl3 {
-        margin-left: 33.5% !important;
-    }
-
-    .Lvl4 {
-        margin-left: 53% !important;
-    }
-
-    .Lvl5 {
-        margin-left: 72% !important;
-    }
-
-    .rating>hr {
-        margin-left: -8% !important;
-        margin-top: 8% !important;
-        width: 120% !important;
-    }
-
-    .steps>p {
-        width: 120% !important;
-        margin-left: -10% !important;
-    }
-
-    #h3Elem {
-        margin-top: -10% !important;
-        margin-bottom: 10% !important;
-    }
-
-    .aboutProduct {
-        margin-left: -18% !important;
-    }
-
-    .btnTop2 {
-        width: 20% !important;
-        margin-left: 35% !important;
-    }
-
-    .circle {
-        margin-left: 21% !important;
-        margin-top: 27% !important;
-        height: 5px !important;
-        width: 2% !important;
-    }
-
-    #circle2 {
-        margin-left: 24% !important;
-    }
-
-    .footerNav2 {
-        margin-top: -20% !important;
-    }
-
-    .footerInbox>p {
-        margin-left: 200% !important;
-        width: 100% !important;
-    }
-
-    .footerInbox {
-        margin-left: 5% !important;
-        margin-top: 12% !important;
-    }
-
-    .circle2 {
-        margin-top: 24% !important;
-    }
-
-    #paleCircle {
-        margin-left: 24% !important;
-    }
-
-    .btnTop3 {
-        margin-top: 30% !important;
-    }
-
-    .footerInbox>span {
-        position: absolute;
-        left: 204% !important;
-        width: 90% !important;
-        font-size: 8px !important;
-        color: red;
-        font-style: italic;
-        margin-top: -65% !important;
-    }
-
-    .footerInbox>button {
-        box-shadow: none;
-        left: 105% !important;
-        width: 20% !important;
-        outline: none;
-        border: none;
-    }
-
-    .burger_menu {
-        height: 5px;
-        padding-bottom: 1px !important;
-        width: 15% !important;
-        position: absolute;
-        background-color: hsl(228, 39%, 23%);
-    }
-
-    .btnTop3 {
-        margin-left: -4% !important;
-    }
-
-    .saidBlck {
-        position: absolute;
-        width: 60% !important;
-        margin-left: 25% !important;
-        height: 180px !important;
-    }
-
-    .btnTop3 {
-        margin-left: -3% !important
-    }
-
-    .saidBlck>p {
-        font-size: 13px !important;
-    }
-
-    .footerMenu {
-        margin-top: 0% !important;
-    }
-
-    .footerItem>img {
-        margin-top: -4% !important;
-        margin-left: 8% !important;
-    }
-
-    #ImgfooterItem {
-        margin-top: -30% !important;
-        margin-left: 80% !important;
-    }
-
-    .footerItem {
-        margin-top: 40% !important;
-        height: 150px !important;
-    }
-
-    .burger__menu_Blck {
-        visibility: visible;
-        position: absolute;
-    }
-
-    .menuBlck {
-        z-index: 99999;
-        position: absolute;
-        margin-top: 20% !important;
-        width: 40% !important;
-        background-color: white;
-        padding-bottom: 17px !important;
-    }
-
-    .menuBlck>ul>li {
-        font-size: 13px !important;
-    }
-
-    .aboutProduct>p {
-        margin-left: 25% !important;
-        width: 33% !important;
-    }
-
-    .menuBtn {
-        color: hsl(228, 39%, 23%);
-        margin-left: 0% !important;
-        padding-left: 0px !important;
-        padding-top: 17px !important;
-    }
-
-    .thirdBtnNavMenu {
-        width: 40% !important;
-    }
-
-    .btnTop {
-        visibility: hidden;
-    }
-}
-
-@media (max-width:500px) and (max-height:920px) {
-    .btnTop4 {
-        width: 33% !important;
-        top: 65% !important;
-        left: 34% !important;
-    }
-    .saidCircle {
-        visibility: visible;
-        position: absolute;
-        margin-top: 37% !important;
-        left: 45% !important;
-        width: 2% !important;
-        border-radius: 150px 150px 150px 150px !important;
-        background-color: hsl(12, 88%, 59%);
-        border: 1px hsl(12, 88%, 59%) solid;
-        height: 8px !important;
-    }
-
-    body>div.row.SlideMenu>div>div>span:nth-child(6) {
-        background-color: white;
-        margin-left: 2.5% !important;
-    }
-
-    body>div.row.SlideMenu>div>div>span:nth-child(7) {
-        background-color: white;
-        margin-left: 5% !important;
-    }
-
-    body>div.row.SlideMenu>div>div>span:nth-child(8) {
-        background-color: white;
-        margin-left: 7.5% !important;
-    }
-
-    body {
-        background-size: 120%, 75% !important;
-        background-position-x: -90%, 245% !important;
-        background-position-y: 35%, -163% !important;
-    }
-.steps>h6 {
-        width: 113%;
-        margin-left: 10% !important;
-        margin-top: 0% !important;
-        padding-top: 10px;
-        padding-left: 46px;
-        padding-bottom: 10.5px;
-        background-color: rgb(255, 240, 235);
-    }
-
-    .steps {
-        line-height: 200% !important;
-        width: 610% !important;
-        margin-left: -452% !important;
-    }
-
-    .btnTop3 {
-        margin-left: -2% !important;
-        width: 30% !important;
-    }
-
-    .footerItem>img {
-        visibility: hidden;
-    }
-
-    .footerItem>h2 {
-        padding-top: 20% !important;
-        padding-bottom: 15% !important;
-        font-size: 300% !important;
-        margin-left: 10% !important;
-        width: 75% !important;
-        text-align: center;
-    }
-
-    body>div:nth-child(3)>div.col-md-7.col-sm-7.col-xs-8>div>div>p {
-        margin-left: 4% !important;
-    }
-.managerCircle{
-    margin-right: 43%;
-    margin-top: 65%;
-    width: 6%;
-}
-.managerCircleRight{
-    margin-right: 5%;
-}
-#managerCircle{
-    margin-right: -6%;
-}
-.managerCircle2{
-    margin-top: 53%;
-    margin-right: -17%;
-}
-    .managerTxt {
-        position: absolute;
-        left: -2% !important;
-        font-size: 235% !important;
-        top: 53% !important;
-        margin-left: 60% !important;
-    }
-
-    .greetings {
-        margin-left: 5% !important;
-        text-align: center;
-        padding: 0 !important;
-    }
-
-    .greetings>h1 {
-        line-height: 150% !important;
-    }
-
-    .greetings>p {
-        line-height: 200% !important;
-    }
-
-    .aboutProduct>h1 {
-        font-size: 30px !important;
-        line-height: 100% !important;
-    }
-
-    .rating {
-        box-shadow: 0px 0px 15px rgb(33, 37, 47);
-        margin-left: -130% !important;
-        margin-top: -30% !important;
-        height: 110px !important;
-        width: 80% !important;
-    }
-
-    #hr_one {
-        margin-top: 7% !important;
-    }
-
-    .ratingLvl {
-        height: 25px !important;
-        margin-left: -8.5% !important;
-        top: 45% !important;
-    }
-
-    .innerRatingLvl {
-        height: 8.5px !important;
-        top: 83% !important;
-    }
-
-    .RatingLvlChildnum2 {
-        top: 80% !important;
-        height: 30px !important;
-    }
-
-    .RatingLvlChildnum3 {
-        height: 23px !important;
-        top: -2% !important;
-    }
-
-    .RatingLvlChildnum4 {
-        height: 28px !important;
-        top: 60% !important;
-    }
-
-    .RatingLvlChildnum5 {
-        top: -70% !important;
-        height: 28px !important;
-    }
-
-    .Lvl2 {
-        top: 29% !important;
-        margin-left: 13% !important;
-    }
-
-    .Lvl3 {
-        top: 47% !important;
-        height: 52px !important;
-        margin-left: 29% !important;
-    }
-
-    .Lvl4 {
-        top: 15% !important;
-        height: 15px !important;
-        margin-left: 50% !important;
-    }
-
-    .Lvl5 {
-        top: 62% !important;
-        height: 20px !important;
-        margin-left: 68% !important;
-    }
-
-    .info {
-        box-shadow: 0px 0px 15px rgb(33, 37, 47) !important;
-        margin-top: -30% !important;
-        margin-left: -30% !important;
-        height: 110px !important;
-        width: 80% !important;
-    }
-
-    .percent {
-        box-shadow: 0px 0px 15px rgb(33, 37, 47) !important;
-        margin-top: 60% !important;
-        margin-left: -35% !important;
-        left: -80% !important;
-        height: 110px !important;
-        width: 80% !important;
-    }
-
-    .totalScore {
-        font-size: 7px !important;
-        width: 105% !important;
-        height: 50px !important;
-    }
-
-    .diffLastAndToday {
-        font-size: 10px !important;
-        margin-left: 9% !important;
-        height: 50px !important;
-    }
-
-    .diffLastAndToday>span {
-        font-size: 14px !important;
-        margin-left: -25% !important;
-    }
-
-    .footerMenuParent {
-        margin-top: 15% !important;
-    }
-
-    .indexLastMonth {
-        height: 50px !important;
-        font-size: 10px !important;
-        margin-left: 2% !important;
-    }
-
-    .indexLastMonth>span {
-        font-size: 14px !important;
-        margin-left: -25% !important;
-    }
-
-    .index>div>div.row>div>div>div>span {
-        font-size: 20px !important;
-        margin-left: -3% !important;
-    }
-
-    .index {
-        margin-top: 0% !important;
-    }
-
-    .greetings {
-        margin-left: 13% !important;
-        margin-top: 135% !important;
-    }
-
-    .greetings>p {
-        margin-left: -48% !important;
-        text-align: unset !important;
-        width: 140% !important;
-    }
-
-    .greetings>h1 {
-        margin-left: -55% !important;
-        margin-top: -30% !important;
-        font-size: 30px !important;
-        width: 150% !important;
-    }
-
-    .aboutProduct>h1 {
-        margin-left: 0% !important;
-        font-size: 30px !important;
-        width: 80% !important;
-    }
-
-    .aboutProduct {
-        position: absolute;
-        left: 29% !important;
-        margin-top: 105% !important;
-    }
-
-    .aboutProduct>button {
-        width: 30% !important;
-        margin-left: 20% !important;
-    }
-
-
-    .Lvl3 {
-        margin-left: 33.5% !important;
-    }
-
-    .Lvl4 {
-        margin-left: 53% !important;
-    }
-
-    .Lvl5 {
-        margin-left: 72% !important;
-    }
-
-    .rating>hr {
-        margin-left: -17% !important;
-        margin-top: 12% !important;
-        width: 135% !important;
-    }
-
-    .steps>p {
-        width: 100% !important;
-        margin-left: -10% !important;
-    }
-
-    #h3Elem {
-        margin-top: -25% !important;
-        margin-bottom: 10% !important;
-    }
-
-    .aboutProduct {
-        margin-left: -18% !important;
-    }
-
-    .btnTop2 {
-        width: 20% !important;
-    }
-
-    .circle {
-        margin-left: 91% !important;
-        margin-top: 307% !important;
-        height: 6px !important;
-        width: 5% !important;
-    }
-
-    .stepBtn {
-        width: 20% !important;
-    }
-
-    #circle2 {
-        margin-left: 100% !important;
-    }
-
-    .footerNav {
-        font-size: 13px !important;
-        margin-left: -45% !important;
-        line-height: 250% !important;
-        position: absolute;
-        margin-top: 50% !important;
-    }
-
-    #fourBlck {
-        width: 100% !important;
-    }
-
-    #fourBlck2 {
-        width: 100% !important;
-    }
-
-    .footerMenu {
-        height: 650px !important;
-    }
-
-    .footerNav2 {
-        font-size: 13px !important;
-        position: absolute;
-        line-height: 250% !important;
-        margin-top: 50% !important;
-    }
-
-    .footerInbox {
-        margin-left: 8% !important;
-        margin-top: -47% !important;
-    }
-
-    .footerInbox>p {
-        margin-top: 635% !important;
-        margin-left: -80% !important;
-        width: 250% !important;
-    }
-
-    .circle2 {
-        margin-top: 302% !important;
-    }
-
-    #paleCircle {
-        background-color: hsla(12, 88%, 59%, 0.4) !important;
-        margin-left: 100% !important;
-    }
-
-    .btnTop3 {
-        margin-top: 47% !important;
-    }
-
-    .footerInbox>span {
-        position: absolute;
-        right: 60% !important;
-        margin-top: 200% !important;
-        width: 120% !important;
-        font-size: 11px !important;
-        color: red;
-        font-style: italic;
-    }
-
-    .footerInbox>button {
-        box-shadow: none;
-        left: -55% !important;
-        width: 60% !important;
-        bottom: 60% !important;
-        font-size: 11px !important;
-        font-family: 'Be Vietnam Pro' !important;
-        outline: none;
-        border: none;
-    }
-
-    .footerInbox>input {
-        right: 10% !important;
-        font-size: 11.2px !important;
-        padding-left: 15% !important;
-        width: 180% !important;
-        bottom: 60% !important;
-    }
-
-    .footerMenuChild>p {
-        position: absolute;
-        margin-left: 110% !important;
-        margin-top: 280% !important;
-    }
-
-    .massengerBlck {
-        margin-top: 230% !important;
-        margin-left: 0% !important;
-        width: 500% !important;
-    }
-
-    .massengerBlck>img {
-        margin-left: 7% !important;
-        width: 7% !important;
-    }
-
-    .burger_menu {
-        height: 5px;
-        padding-bottom: 1px !important;
-        width: 15% !important;
-        position: absolute;
-        background-color: hsl(228, 39%, 23%);
-    }
-
-    .saidBlck {
-        position: absolute !important;
-        width: 85% !important;
-        margin-top: -10% !important;
-        margin-left: 120% !important;
-        height: 180px !important;
-    }
-
-    #firstScroll {
-        margin-left: 7.5% !important;
-    }
-
-    .btnTop3 {
-        margin-left: -10% !important
-    }
-
-    .saidBlck>p {
-        font-size: 13px !important;
-    }
-
-    .footerMenu {
-        margin-top: 0% !important;
-    }
-
-    .footerItem>img {
-        margin-top: -4% !important;
-        margin-left: 8% !important;
-    }
-
-    #ImgfooterItem {
-        visibility: visible;
-        margin-top: 5% !important;
-        width: 150% !important;
-        margin-left: -126% !important;
-    }
-
-    .footerItem {
-        margin-top: 40% !important;
-        height: 350px !important;
-    }
-
-    .burger__menu_Blck {
-        visibility: visible;
-        position: absolute;
-    }
-
-    .burger_menu {
-        width: 20% !important;
-        height: 3px !important;
-        margin-top: -4% !important;
-    }
-
-    .burger_menu1 {
-        margin-top: 9% !important;
-
-    }
-
-    .burger_menu:nth-child(5) {
-        margin-top: -17% !important;
-    }
-
-    .burger__menu_Blck>button {
-        background-color: transparent;
-        outline: none;
-        border: none;
-        box-shadow: none;
-    }
-
-    .burger__menu_Blck {
-        right: -10% !important;
-        top: 53% !important;
-    }
-
-    .menuBlck {
-        z-index: 99999;
-        position: absolute;
-        margin-top: 20% !important;
-        width: 80% !important;
-        box-shadow: 0px 0px 1000px rgba(33, 37, 47, 0.9);
-        background-color: white;
-        padding-bottom: 17px !important;
-    }
-
-    .menuBlck>ul>li {
-        font-size: 13px !important;
-        margin-left: 15% !important;
-        margin-top: 1% !important;
-        padding-bottom: 15px !important;
-    }
-
-    .aboutProduct>p {
-        margin-left: 8% !important;
-        width: 63% !important;
-    }
-
-    .menuBtn {
-        color: hsl(228, 39%, 23%);
-        margin-left: 0% !important;
-        padding-left: 0px !important;
-        padding-top: 17px !important;
-    }
-
-    .thirdBtnNavMenu {
-        width: 60% !important;
-    }
-
-    .btnTop {
-        visibility: hidden;
-    }
-    @media (max-width:450px) and (max-height:920px) {
-        body{
-    background-size: 120%, 75% !important;
-    background-position-x: -90%, 240% !important;
-    background-position-y: 35%, -153% !important;
-        }
-        .rating{
-        margin-left: -100% !important;
-        width: 70% !important;
-        margin-top: -20% !important;
-        }
-        #hr_one{
-            margin-top: 5% !important;
-        }
-        .rating>hr{
-            margin-top: 9.4% !important;
-        }
-        .ratingLvl{
-            top: 50%!important;
-        }
-        .Lvl2{
-            margin-left: 11%!important;
-            top: 32%!important;
-            height: 27px!important;
-        }
-        .Lvl3{
-            margin-left: 30%!important;
-            top: 52%!important;
-            height: 49px!important;
-        }
-        .Lvl4{
-            top: 10% !important;
-            margin-left: 49%!important;
-            height: 17px !important;
-        }
-        .RatingLvlChildnum4{
-            height:34px !important;
-        }
-        .Lvl5{
-            margin-left: 70%!important;
-            top: 62% !important;
-        }
-        .diffLastAndToday{
-            margin-top: 2% !important;
-            margin-left: 11% !important;
-            width:38% !important;
-        }
-        .indexLastMonth{
-            margin-top: 2% !important;
-            margin-left: 2.3% !important;
-            width:38% !important;
-        }
-        .totalScore{
-            margin-left: 3% !important;
-            margin-top: 2% !important;
-            width: 95% !important;
-        }
-        .footerMenuChild{
-            margin-left: -3% !important;
-        }
-        .info{
-            margin-left: -15% !important;
-            width: 70% !important;
-            margin-top: -20% !important;
-            }
-            .percent{
-                margin-top: 50% !important;
-                margin-left: -25% !important;
-                width: 70% !important;
-            }
-        .managerCircleRight {
-            top: 75% !important;
-            right: 52.2% !important;
-        }
-
-        .burger_menu {
-            height: 4px !important;
-        }
-
-        .stepBtn {
-            width: 15% !important;
-        }
-
-        .burger_menu1 {
-            margin-top: 7% !important;
-
-        }
-
-        .burger_menu:nth-child(5) {
-            margin-top: -15% !important;
-        }
-
-        .steps {
-            margin-left: -302% !important;
-        }
-
-        body>div:nth-child(3)>div.col-md-7.col-sm-7.col-xs-8>div>div>p {
-            margin-left: 10% !important;
-            width: 65% !important;
-        }
-
-        .greetings>p {
-            margin-left: -40% !important;
-            margin-bottom: 20% !important;
-            width: 120% !important;
-        }
-
-        .aboutProduct>p {
-            margin-left: 10% !important;
-            margin-bottom: 0% !important;
-            width: 60% !important;
-        }
-
-        .aboutProduct {
-            margin-left: -20% !important;
-        }
-
-        .footerMenu {
-            height: 950px !important;
-        }
-
-        .circle {
-            margin-left: 96.1% !important;
-            margin-top: 303.4% !important;
-        }
-
-        .circle2 {
-            margin-top: 299.4% !important;
-        }
-
-        .footerInbox>span {
-            margin-top: 190% !important;
-        }
-
-        #circle2 {
-            margin-left: 102.6% !important;
-            margin-top: 303.4% !important;
-        }
-
-        #paleCircle {
-            margin-left: 102.6% !important;
-            margin-top: 299.4% !important;
-        }
-
-        .footerItem>h2 {
-            margin-left: 13% !important;
-            width: 70% !important;
-        }
-
-        .footerInbox>p {
-            margin-left: -65% !important;
-            margin-top: 605% !important;
-        }
-        @media (max-width:400px) and (max-height:900px){
-            .circle{
-            margin-left: 95.1% !important;
-            margin-top: 305% !important;
-            }
-            .circle2{
-                margin-top: 300% !important;
-            }
-        #circle2{
-            margin-left: 102% !important;
-            margin-top: 305% !important;
-        }
-
-        #paleCircle {
-            margin-top: 300% !important;
-            margin-left: 102% !important;
-        }
-            body {
-                background-size: 120%, 75% !important;
-                background-position-x: -90%, 245% !important;
-                background-position-y: 35%, -159% !important;
-            }
-            .rating{
-                margin-left: -120% !important;
-                width: 75% !important;
-            }
-            .info{
-                margin-left: -25% !important;
-                width: 75% !important;
-            }
-            .percent{      
-    margin-top: 60% !important;
-    margin-left: -33% !important;
-    width: 75% !important;
-            }
-            .footerInbox>p{
-                margin-left: -75% !important;
-            }
-            .greetings>p{
-                width: 130% !important;
-            }
-            .aboutProduct>p{
-                width: 60% !important;
-            }
-            .footerItem>h2 {
-                width: 75% !important;
-            }
-            .rating>hr {
-                margin-top: 10.4% !important;
-            }
-            .Lvl5{
-                margin-left: 68% !important;
-            }
-            #ImgfooterItem{
-                margin-left: -121% !important;
-            }
-            .footerMenuChild{
-                margin-left: -3.6% !important;
-            }
-            .footerMenu {
-                height: 830px !important;
-            }
-            .steps{
-                margin-left: -382% !important;
-            }
-            body>div:nth-child(3)>div.col-md-7.col-sm-7.col-xs-8>div>div>p {
-                width: 85% !important;
-            }
-            .managerTxt{
-                top: 50% !important;
-            }
-            @media (max-width:400px) and (max-height:800px) {
-                .circle{
-                    margin-left: 95.1% !important;
-                    margin-top: 307% !important;
-                    }
-                    .circle2{
-                        margin-top: 302% !important;
-                    }
-                #circle2{
-                    margin-left: 102% !important;
-                    margin-top: 307% !important;
-                }
-        
-                #paleCircle {
-                    margin-top: 302% !important;
-                    margin-left: 102% !important;
-                }
-                body {
-                    background-size: 120%, 75% !important;
-                    background-position-x: -90%, 240% !important;
-                    background-position-y: 35%, -175% !important;
-                }
-                .burger__menu_Blck{
-                    right: -10% !important;
-                    top:50% !important;
-                }
-                .rating{
-                    margin-left: -140% !important;
-                    width: 80% !important;
-                }
-                .info{
-                    margin-left: -35% !important;
-                    width: 80% !important;
-                }
-                .percent{
-                    margin-top: 68% !important;
-                    margin-left: -40% !important;
-                    width: 80% !important;
-                }
-                .greetings>p{
-                    margin-left: -60% !important;
-                width: 150% !important;
-                }
-                .aboutProduct>p{
-                margin-left: 10% !important;
-                    width: 60% !important;
-                }
-               .steps{
-                margin-left: -502% !important;
-               }
-               .steps>h6{
-                width: 120% !important;
-               }
-               .stepBtn{
-                width: 20% !important;
-               }
-               body>div:nth-child(3)>div.col-md-7.col-sm-7.col-xs-8>div>div>p {
-    width: 105% !important;
-}
-.footerItem>h2{
-    margin-left: 8% !important;
-}
-#ImgfooterItem{
-    margin-left: -130% !important;
-}
-.footerMenuChild{
-    margin-left: -5% !important;
-}
-.indexLastMonth>span{
-    font-size: 13px !important;
-}
-.rating>hr {
-    margin-top: 11.4% !important;
-}
-.footerNav{
-    margin-top: 45% !important;
-}
-.btnTop4{
-    left: 30% !important;
-}
-.footerNav2{
-    margin-top: 45% !important;
-}
-.footerInbox{
-    margin-left: 12% !important;
-}
-.footerInbox>p{
-    margin-left: -85% !important;
-}
-.massengerBlck>img{
-    margin-left:7.5% !important;
-}
-.footerMenu{
-    height: 700px !important;
-}
-.managerCircle{
-    margin-top: 70%;
-}
-.managerCircle2{
-    margin-top: 57%;
-}
-@media (max-width:400px) and (max-height:700px){
-        .btnTop4 {
-            width: 33% !important;
-            top: 65% !important;
-            left: 34% !important;
-        }
-    
-        .btnTop4>a {
-            font-size: 11.5px !important;
-        }
-    
-        .saidCircle {
-            visibility: visible;
-            position: absolute;
-            margin-top: 37% !important;
-            left: 45% !important;
-            width: 2% !important;
-            border-radius: 150px 150px 150px 150px !important;
-            background-color: hsl(12, 88%, 59%);
-            border: 1px hsl(12, 88%, 59%) solid;
-            height: 8px !important;
-        }
-        body>div.row.SlideMenu>div>div>span:nth-child(6) {
-            background-color: white;
-            margin-left: 2.5% !important;
-        }
-        body>div.row.SlideMenu>div>div>span:nth-child(7) {
-            background-color: white;
-            margin-left: 5% !important;
-        }
-    
-        body>div.row.SlideMenu>div>div>span:nth-child(8) {
-            background-color: white;
-            margin-left: 7.5% !important;
-        }
-    
-        body {
-            background-size: 120%, 75% !important;
-            background-position-x: -90%, 245% !important;
-            background-position-y: 35%, -163% !important;
-        }
-         .steps>h6 {
-            width: 113%;
-            margin-left: 10% !important;
-            margin-top: 0% !important;
-            padding-top: 10px;
-            padding-left: 46px;
-            padding-bottom: 10.5px;
-            background-color: rgb(255, 240, 235);
-        }
-    
-        .steps {
-            line-height: 200% !important;
-            width: 610% !important;
-            margin-left: -452% !important;
-        }
-    
-        .btnTop3 {
-            margin-left: -2% !important;
-            width: 30% !important;
-        }
-    
-        .footerItem>img {
-            visibility: hidden;
-        }
-    
-        .footerItem>h2 {
-            padding-top: 20% !important;
-            padding-bottom: 15% !important;
-            font-size: 300% !important;
-            margin-left: 9% !important;
-            width: 75% !important;
-            text-align: center;
-        }
-    
-        body>div:nth-child(3)>div.col-md-7.col-sm-7.col-xs-8>div>div>p {
-            margin-left: 4% !important;
-        }
-        .managerCircle2{
-            margin-top: 50% !important;
-        }
-        .managerTxt {
-            position: absolute;
-            left: -2% !important;
-            font-size: 28px !important;
-            top: 46% !important;
-            margin-left: 60% !important;
-        }
-    
-        .greetings {
-            margin-left: 5% !important;
-            text-align: center;
-            padding: 0 !important;
-        }
-    
-        .greetings>h1 {
-            line-height: 150% !important;
-        }
-    
-        .greetings>p {
-            line-height: 200% !important;
-        }
-    
-        .aboutProduct>h1 {
-            font-size: 30px !important;
-            line-height: 100% !important;
-        }
-    
-        .rating {
-            box-shadow: 0px 0px 15px rgb(33, 37, 47);
-            margin-left: -130% !important;
-            margin-top: -30% !important;
-            height: 110px !important;
-            width: 80% !important;
-        }
-    
-        #hr_one {
-            margin-top: 7% !important;
-        }
-    
-        .ratingLvl {
-            height: 25px !important;
-            margin-left: -8.5% !important;
-            top: 45% !important;
-        }
-    
-        .innerRatingLvl {
-            height: 8.5px !important;
-            top: 83% !important;
-        }
-    
-        .RatingLvlChildnum2 {
-            top: 80% !important;
-            height: 30px !important;
-        }
-    
-        .RatingLvlChildnum3 {
-            height: 23px !important;
-            top: -2% !important;
-        }
-    
-        .RatingLvlChildnum4 {
-            height: 28px !important;
-            top: 60% !important;
-        }
-    
-        .RatingLvlChildnum5 {
-            top: -70% !important;
-            height: 28px !important;
-        }
-    
-        .Lvl2 {
-            top: 29% !important;
-            margin-left: 13% !important;
-        }
-    
-        .Lvl3 {
-            top: 47% !important;
-            height: 52px !important;
-            margin-left: 29% !important;
-        }
-    
-        .Lvl4 {
-            top: 15% !important;
-            height: 15px !important;
-            margin-left: 50% !important;
-        }
-    
-        .Lvl5 {
-            top: 62% !important;
-            height: 20px !important;
-            margin-left: 68% !important;
-        }
-    
-        .info {
-            box-shadow: 0px 0px 15px rgb(33, 37, 47) !important;
-            margin-top: -30% !important;
-            margin-left: -30% !important;
-            height: 110px !important;
-            width: 80% !important;
-        }
-    
-        .percent {
-            box-shadow: 0px 0px 15px rgb(33, 37, 47) !important;
-            margin-top: 60% !important;
-            margin-left: -35% !important;
-            left: -80% !important;
-            height: 110px !important;
-            width: 80% !important;
-        }
-    
-        .totalScore {
-            font-size: 7px !important;
-            width: 95% !important;
-            height: 50px !important;
-        }
-    
-        .diffLastAndToday {
-            font-size: 10px !important;
-            margin-left: 11.4% !important;
-            height: 50px !important;
-        }
-    
-        .diffLastAndToday>span {
-            font-size: 14px !important;
-            margin-left: -25% !important;
-        }
-    
-        .footerMenuParent {
-            margin-top: 15% !important;
-        }
-    
-        .indexLastMonth {
-            height: 50px !important;
-            font-size: 10px !important;
-            margin-left: 2% !important;
-        }
-    
-        .indexLastMonth>span {
-            font-size: 14px !important;
-            margin-left: -25% !important;
-        }
-    
-        .index>div>div.row>div>div>div>span {
-            font-size: 20px !important;
-            margin-left: -3% !important;
-        }
-    
-        .index {
-            margin-top: 0% !important;
-        }
-    
-        .greetings {
-            margin-left: 13% !important;
-            margin-top: 135% !important;
-        }
-    
-        .greetings>p {
-            margin-left: -48% !important;
-            text-align: unset !important;
-            width: 140% !important;
-        }
-    
-        .greetings>h1 {
-            margin-left: -55% !important;
-            margin-top: -30% !important;
-            font-size: 30px !important;
-            width: 150% !important;
-        }
-    
-        .aboutProduct>h1 {
-            margin-left: 0% !important;
-            font-size: 30px !important;
-            width: 80% !important;
-        }
-    
-        .aboutProduct {
-            position: absolute;
-            left: 29% !important;
-            margin-top: 105% !important;
-        }
-    
-        .aboutProduct>button {
-            width: 30% !important;
-            margin-left: 20% !important;
-        }
-        .Lvl3 {
-            margin-left: 33.5% !important;
-        }
-    
-        .Lvl4 {
-            margin-left: 53% !important;
-        }
-    
-        .Lvl5 {
-            margin-left: 72% !important;
-        }
-    
-        .rating>hr {
-            margin-left: -17% !important;
-            margin-top: 12% !important;
-            width: 135% !important;
-        }
-    
-        .steps>p {
-            width: 100% !important;
-            margin-left: -10% !important;
-        }
-    
-        #h3Elem {
-            margin-top: -25% !important;
-            margin-bottom: 10% !important;
-        }
-    
-        .aboutProduct {
-            margin-left: -18% !important;
-        }
-    
-        .btnTop2 {
-            width: 20% !important;
-        }
-    
-        .circle {
-            margin-left: 91% !important;
-            margin-top: 307% !important;
-            height: 6px !important;
-            width: 5% !important;
-        }
-    
-        .stepBtn {
-            width: 20% !important;
-        }
-    
-        #circle2 {
-            margin-left: 100% !important;
-            margin-top: 307% !important;
-        }
-    
-        .footerNav {
-            font-size: 13px !important;
-            margin-left: -45% !important;
-            line-height: 250% !important;
-            position: absolute;
-            margin-top: 50% !important;
-        }
-    
-        #fourBlck {
-            width: 100% !important;
-        }
-    
-        #fourBlck2 {
-            width: 100% !important;
-        }
-    
-        .footerMenu {
-            height: 650px !important;
-        }
-    
-        .footerNav2 {
-            font-size: 13px !important;
-            position: absolute;
-            line-height: 250% !important;
-            margin-top: 50% !important;
-        }
-    
-        .footerInbox {
-            margin-left: 12% !important;
-            margin-top: -47% !important;
-        }
-    
-        .footerInbox>p {
-            margin-top: 615% !important;
-            margin-left: -90% !important;
-            width: 250% !important;
-        }
-    
-        .circle2 {
-            margin-top: 302% !important;
-        }
-    
-        #paleCircle {
-            background-color: hsla(12, 88%, 59%, 0.4) !important;
-            margin-left: 100% !important;
-            margin-top: 302% !important;
-        }
-    
-        .btnTop3 {
-            margin-top: 47% !important;
-        }
-    
-        .footerInbox>span {
-            position: absolute;
-            right: 60% !important;
-            margin-top: 200% !important;
-            width: 120% !important;
-            font-size: 11px !important;
-            color: red;
-            font-style: italic;
-        }
-    
-        .footerInbox>button {
-            box-shadow: none;
-            left: -55% !important;
-            width: 60% !important;
-            bottom: 60% !important;
-            font-size: 11px !important;
-            font-family: 'Be Vietnam Pro' !important;
-            outline: none;
-            border: none;
-        }
-    
-        .footerInbox>input {
-            right: 10% !important;
-            font-size: 11.2px !important;
-            padding-left: 15% !important;
-            width: 180% !important;
-            bottom: 60% !important;
-        }
-    
-        .footerMenuChild>p {
-            position: absolute;
-            margin-left: 110% !important;
-            margin-top: 280% !important;
-        }
-    
-        .massengerBlck {
-            margin-top: 230% !important;
-            margin-left: 0% !important;
-            width: 500% !important;
-        }
-    
-        .massengerBlck>img {
-            margin-left: 7% !important;
-            width: 7% !important;
-        }
-    
-        .burger_menu {
-            height: 5px;
-            padding-bottom: 1px !important;
-            width: 15% !important;
-            position: absolute;
-            background-color: hsl(228, 39%, 23%);
-        }
-    
-        .saidBlck {
-            position: absolute !important;
-            width: 85% !important;
-            margin-top: -10% !important;
-            margin-left: 120% !important;
-            height: 180px !important;
-        }
-    
-        #firstScroll {
-            margin-left: 7.5% !important;
-        }
-    
-        .btnTop3 {
-            margin-left: -10% !important
-        }
-    
-        .saidBlck>p {
-            font-size: 13px !important;
-        }
-    
-        .footerMenu {
-            margin-top: 0% !important;
-        }
-    
-        .footerItem>img {
-            margin-top: -4% !important;
-            margin-left: 8% !important;
-        }
-    
-        #ImgfooterItem {
-            visibility: visible;
-            margin-top: 5% !important;
-            width: 150% !important;
-            margin-left: -128% !important;
-        }
-    
-        .footerItem {
-            margin-top: 40% !important;
-            height: 350px !important;
-        }
-    
-        .burger__menu_Blck {
-            visibility: visible;
-            position: absolute;
-        }
-    
-        .burger_menu {
-            width: 20% !important;
-            height: 3px !important;
-            margin-top: -4% !important;
-        }
-    
-        .burger_menu1 {
-            margin-top: 9% !important;
-    
-        }
-    
-        .burger_menu:nth-child(5) {
-            margin-top: -17% !important;
-        }
-    
-        .burger__menu_Blck>button {
-            background-color: transparent;
-            outline: none;
-            border: none;
-            box-shadow: none;
-        }
-    
-        .burger__menu_Blck {
-            right: -10% !important;
-            top: 47% !important;
-        }
-    
-        .menuBlck {
-            z-index: 99999;
-            position: absolute;
-            margin-top: 20% !important;
-            width: 80% !important;
-            box-shadow: 0px 0px 1000px rgba(33, 37, 47, 0.9);
-            background-color: white;
-            padding-bottom: 17px !important;
-        }
-    
-        .menuBlck>ul>li {
-            font-size: 13px !important;
-            margin-left: 15% !important;
-            margin-top: 1% !important;
-            padding-bottom: 15px !important;
-        }
-    
-        .aboutProduct>p {
-            margin-left: 8% !important;
-            width: 63% !important;
-        }
-    
-        .menuBtn {
-            color: hsl(228, 39%, 23%);
-            margin-left: 0% !important;
-            padding-left: 0px !important;
-            padding-top: 17px !important;
-        }
-    
-        .thirdBtnNavMenu {
-            width: 60% !important;
-        }
-    
-        .btnTop {
-            visibility: hidden;
-        }
- 
-    }
-            }
-        }
-    }
-}
-
 .circle {
     margin-left: 23.5%;
     width: 1.3%;
@@ -3076,7 +666,6 @@ margin-bottom: 5%;
 button {
     box-shadow: 0px 2px 10px hsla(12, 88%, 59%, 0.6);
 }
-
 .footerMenuChild>p {
     margin-left: 30%;
     margin-top: 4.2%;
@@ -3084,24 +673,9 @@ button {
     font-family: 'Be Vietnam Pro';
     color: white;
 }
-
-@font-face {
-    font-family: 'Be Vietnam Pro';
-    src: url(./BeVietnamPro-Bold.ttf);
-}
-
 .footerInbox{
     position: relative;
     float: left;
-}
-@keyframes mobilemenu2 {
-    from {
-        margin-left: 40%
-    }
-
-    to {
-        margin-left: 150%;
-    }
 }
 .footerInbox>input{
     position: relative;
@@ -3145,76 +719,6 @@ color: gray;
     left: 0%;
     width: 28%;
 }
-.positionRight {
-    float: right;
-}
-
-@keyframes scrollMobile {
-    from {
-        left: -5%;
-    }
-
-    to {
-        left: -150%;
-    }
-}
-
-@keyframes scrollMobile2 {
-    from {
-        left: 150%;
-    }
-
-    to {
-        left: -5%;
-    }
-}
-
-@keyframes scrollMobile3 {
-    from {
-        left: -150%;
-    }
-
-    to {
-        left: -5%;
-    }
-}
-
-@keyframes scrollMobile4 {
-    from {
-        left: -5%;
-    }
-
-    to {
-        left: 150%;
-    }
-}
-
-.btnStart {
-    color: white;
-    font-size: 9px;
-}
-
-.btnTop {
-    position: absolute;
-    width: 10%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    bottom: 0%;
-    right: 10%;
-    border-radius: 50px 50px 50px 50px;
-    background-color: hsl(12, 88%, 59%);
-}
-.btnTop:hover {
-    background-color: hsla(12, 88%, 59%, 0.6);
-}
-.btnTop2:hover {
-    background-color: hsla(12, 88%, 59%, 0.6);
-}
-
-.btnTop3:hover {
-    background-color: hsla(12, 88%, 59%, 0.6);
-}
-
 .footerInbox>button:hover {
     background-color: rgb(249, 143, 117);
 }
@@ -3228,20 +732,6 @@ a:hover {
     text-decoration: none;
 }
 
-.btnTop4:hover a {
-    color: hsla(12, 88%, 59%, 0.6);
-}
-
-.btnTop2 {
-    position: absolute;
-    margin-top: 3%;
-    left: 2%;
-    width: 25%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-radius: 50px 50px 50px 50px;
-    background-color: hsl(12, 88%, 59%);
-}
 .manageBlck{
     width: 23%;
     position: inherit;
@@ -3268,4 +758,268 @@ a:hover {
 .stepBtn:hover{
     cursor: auto;
     color: white !important;
+}
+@media (max-width:1300px) and (max-height:800px){
+    .footCircle{
+        height: 47%;
+        width: 27%;
+        right: 3%;
+    }
+    .btnTop3{
+        bottom: -25%;
+    }
+    .MngChild>p {
+        font-size: 30px;
+        top: 46.7%;
+        margin-left: 0%;
+    }
+    .footCircle2{
+        right: 35%;
+    }
+    .massengerBlckParent > div > img{
+        width: 10%;
+        height: 100%;
+    }
+    .massengerBlck{
+        margin-top: 3%;
+        right: -5%;
+    }
+    .ratingLvl{
+        margin-left: -6%;
+    }
+    .footerInbox>p{
+    white-space: nowrap;
+    }.Lvl2{
+        margin-left: 14%;
+    }
+    .Lvl3{
+        margin-left: 34%;
+    }
+    .Lvl4{
+        margin-left: 54%;
+    }
+    .Lvl5{
+        margin-left: 72%;
+    }
+    .totalScore>span {
+        font-size: 240%;
+    }
+    .padding{
+        height: 70%;
+    }
+    .stepsBlckParent{
+        margin-top: 0%
+    }
+    .diffLastAndToday,.indexLastMonth{
+        margin-top: -10% !important;
+    }
+    .info, .rating, .percent {
+        height: 35%;
+    }
+    .info>img{
+        margin-top: 10% !important;
+    }
+    body > div.row.stepsBlckParent > div.col-md-5.col-sm-5.col-xs-8.greetings > h1{
+        white-space: nowrap;
+        font-size: 32px;
+        margin-top: 0 !important;
+    }
+    body{
+    background-position-y: 17%, -150%;
+    background-position-x: 115%, -50%;
+    }
+@media (max-width:1100px) and (max-height:600px){
+    body{
+    background-position-y: 17%, -154%;
+    background-position-x: 115%, -50%;
+    }
+    .stepsBlckParent{
+        margin-top: 2%;
+    }
+    .massengerBlck>img{
+        width: 11% !important;
+        height: 130% !important;
+    }
+    .totalScore>span {
+        font-size: 210%;
+    }
+    .MngChild>p{
+    font-size: 25px;
+    }
+}
+}
+@media (max-width:950px) and (max-height:1400px){
+    .greetings{
+        margin-left: -3% !important;
+    }
+    body > div.nav.navbar.container-fluid{
+        height: 10% !important;
+    }
+    .CircleChild1{
+        height: 6px !important;
+        width: 6px !important;
+    }
+    .CircleChild2{
+        margin-right: 8px;
+    }
+    .manageBlck{
+        width: 15%;
+    }
+    .managerTxt{
+        font-size: 200%;
+    }
+    .CircleBlckChild{
+    margin-top: 75%;
+    }
+    .CircleBlckChild2{
+    margin-top: 0%;
+    }
+    .menuBtn{
+        font-size: 10px !important;
+    }
+    .btnTop{
+        width: 13%;
+        right: 5%;
+        padding: 1.5% 0 !important;
+    }
+    .aboutProduct > h1{
+        font-size: 28px;
+    }
+    .info,.percent,.rating{
+        height: 35%;
+        width: 75%;
+    }
+    .rating{
+        margin-left: -65%;
+    }
+    .info{
+        margin-left: 15%;
+    }
+    .info > img{
+        height: 100%;
+        width: 100%;
+        margin-left: 0% !important;
+        margin-top: 3% !important;
+    }
+    .percent{
+        margin-left: -10%;
+    }
+    .index{
+        margin-left: 5%;
+    }
+    .totalScore > span{
+        font-size: 200% !important;
+    }
+    .diffLastAndToday,.indexLastMonth{
+        margin-top: -10%;
+    }
+    .ratingLvl{
+        margin-left: -8%;
+    }
+    .Lvl2{
+        margin-left: 12%;
+    }
+    .Lvl3{
+        margin-left: 32%;
+    }
+    .Lvl4{
+        margin-left: 52%;
+    }
+    .Lvl5{
+        margin-left: 70%;
+    }
+    .btnTop2{
+        padding: 3.5% 0;
+        width: 35%;
+    }
+    .padding{
+        margin-top: 10%;
+        height: 40%;
+    }
+    .withoutTop{
+        margin-left: -8%;
+    }
+    .steps>p{
+        font-size: 90%;
+    }
+    body{
+        height: 100% !important;
+    background-position-y: 17%, -215%;
+    background-position-x: 115%, -50%;
+    }
+    .saidBlck{
+        width: 20%;
+    }
+    .footerItem{
+        padding: 8% 0 !important;
+        margin-top: 15%;
+    }
+    .btnTop3{
+        width: 13%;
+        left: 42%;
+    }
+    .SlideMenu{
+        margin-top: 8%;
+    }
+    .stepsBlckParent{
+        margin-top: 0%;
+    }
+    .btnTop4{
+        width: 10% ;
+    }
+    .footerMenu > div.col-md-8.col-sm-8.col-xs-8,.footerInbox{
+        height: 75% !important;
+    }
+    .footerItem>h2{
+        font-size: 22px !important;
+    }
+    .saidBlck>p{
+        font-size: 85%;
+    }
+    .footCircle{
+        height: 35%;
+        width: 40%;
+        bottom: 0%;
+    }
+    .footCircle2{
+        right: 50% !important;
+    }
+    .footCircle3{
+        top: 20% !important;
+    }
+    .massengerBlck{
+        margin-top: 35% !important;
+        width: 140%;
+        right: -40%;
+    }
+    .footerNav>li{
+        margin-top: 22% !important;
+    }.footerNav>li,.footerNav2>li{
+        font-size: 15px;
+        margin-bottom: 60% !important;
+    }
+    .massengerBlckParent > div > img{
+        width: 10%;
+        height: 70%;
+        margin-left: 4%;
+    }
+    .footerInbox>input,.footerInbox>button{
+        font-size: 9px;
+    }
+    body > div.row.stepsBlckParent > div.col-md-5.col-sm-5.col-xs-8.greetings > h1{
+        white-space: nowrap;
+        font-size: 26px;
+        margin-top: 0 !important;
+    }
+    .footerInbox>p{
+        margin: 50% auto;
+        white-space: nowrap;
+    }
+    .footerNav > li:nth-child(1), .footerNav2 > li:nth-child(1) {
+        margin-top: -4% !important;
+    }
+    .MngChild>p {
+        top: 44%;
+        font-size: 34px;
+    }
 }
