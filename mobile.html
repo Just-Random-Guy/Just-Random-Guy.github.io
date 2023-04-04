@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="main_mobile.css">
+    <link rel="stylesheet" href="./@_styles.css">
+</head>
+<body onresize="Screenresize()">
+    <div class="row">
+        <div class="col-xs-6 manageBlck"><div class="ManagerCircBlck"><span class="manageCircle"></span><span class="manageCircle manageCircle2"></span></div><div class="ManagerCircBlck"><span class="manageCircle manageCircle3"></span><span class="manageCircle manageCircle2 manageCircle3 paleCircle"></span></div><br><span class="managerTxt">manage</span></div>
+        <div class="col-xs-6 burger__menu_Blck"><button class="mobileMenuBtn" onclick="mobMenu(0)"><span class="burger__Menu"></span><span class="burger__Menu"></span><span class="burger__Menu"></span></button><button class="mobileMenuBtn mobileMenuBtn2" onclick="mobMenu(1)"hidden><span class="mobMenuHid"></span><span class="mobMenuHid mobMenuHid2"></span></button></div>
+        <div class="col-xs-12 mobMenuParent" id="mobile-nav"><div class="mobMenu"><ul class="nav navbar-nav nav-Menu">
+            <li class="active menuBtn firstNav">Pricing</li>
+            <li class="active menuBtn">Product</li>
+            <li class="active menuBtn">About US</li>
+            <li class="active menuBtn">Careers</li>
+            <li class="active menuBtn secondNav">Community</li>
+        </ul></div></div>
+       </div>
+    <div class="row"> 
+    <div class="col-xs-6 ratingParent"><div class="rating">
+    <hr id="hr_one">
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+<div class="ratingLvl"><div class="innerRatingLvl"></div></div><div class="innerRatingLvl RatingLvlChildnum2">
+    <div class="ratingLvl Lvl2"></div>
+</div><div class="innerRatingLvl RatingLvlChildnum3">
+    <div class="ratingLvl Lvl3"></div>
+</div><div class="innerRatingLvl RatingLvlChildnum4">
+    <div class="ratingLvl Lvl4"></div>
+</div><div class="innerRatingLvl RatingLvlChildnum5">
+    <div class="ratingLvl Lvl5"></div>
+</div></div></div>
+    <div class="col-xs-6 infoParent"><div class="info"><img src="./illustration-intro.svg" width="100%" height="100%" alt=""></div></div>
+    <div class="col-xs-12 percentParent"><div class="percent"><div class="col-xs-12 totalScore"><div class="totalScoreChild"><span>89.74%</span></div></div><div class="col-xs-6 diffLastAndToday"><div class="diffLastAndTodayChild"><span>+1.5%</span></div></div><div class="col-xs-6 monthIndex"><div class="monthIndexChild"><span>88.24%</span></div></div></div></div>
+</div>
+<div class="row">
+    <div class="col-xs-12"><div class="aboutProduct"><h1>Bring everyone<br> together to build<br> better products</h1><br><p>Manage makes it simple for software <br>teams to plan day-to-day tasks while<br>keeping the targer team goals in view</p><br><button class="btn getStartBtn">Get Started</button></div></div>
+    <div class="col-xs-12"><div class="greetings"><h1>What's different<br>about Manage?</h1><br>
+        <p>Manage provides all the functionality your<br>team needs, withpout the complexity. Our<br>software is tailor-made for modern digital<br>product teams</p>
+    </div></div>
+</div><br><br>
+<div class="row">
+    <div class="col-xs-12 steps"><button class="btn btn-md stepBtn">01</button><h5>Track company-wide progress</h5><p>See how your day-to-day tasks fit into the wider<br>vision.Go from tracking progress at the milestone<br>level all the way done to the smallest of details.<br>Never lose sight of the bigger picture again</p><br></div>
+    <div class="col-xs-12 steps"><button class="btn btn-md stepBtn">02</button><h5>Advanced built-in reports</h5><p>Set internal delivery estimates and track progress <br>toward company goals. Our customisable <br>dashboard helps you build out the reports you <br>need to keep key stakeholders informed</p><br></div>
+    <div class="col-xs-12 steps"><button class="btn btn-md stepBtn">03</button><h5>Everything you need in one place</h5><p>Stop jumping from one service to another to <br>communicate, store files, track tasks and share <br>documents. Manage offers an all-in-one team <br>productivity solution.</p><br></div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <center><h2>What they've said</h2></center><br>
+            
+        <div class="SlideBlck">
+        <div class="slide firstScroll"><center><img src="./avatar-anisha.png" alt="" class="Avatar_img"></center><br><center><h5>Anisha Li</h5></center><p>"Manage has supercharged our team's<br>workflow. The ability to maintain <br>visibility on larger milestones at all times<br>keeps everyone motivated"</p></div>
+        <div class="slide"><center><img src="./avatar-ali.png" alt="" class="Avatar_img"></center><br><center><h5>Ali Bravo</h5></center><p>"We have been able to cancel so many<br>other subscriptions since using Manage.<br>There is no more cross-chanell confusion<br>and everyone is much more focused."</p></div>
+        <div class="slide"><center><img src="./avatar-richard.png" alt="" class="Avatar_img"></center><br><center><h5>Richard Watts</h5></center><p>"Manage allows us to provide<br>structure and process. It keeps us <br>organized and focused. I can't stop recommending<br>them to everyone I talk to!"</p></div>
+        <div class="slide"><center><img src="./avatar-shanai.png" alt="" class="Avatar_img"></center><br><center><h5>Shanai Gough</h5></center><p>"Their software allows us to <br>track, manage and collaborateon our projects<br> from anywhere. It keeps the whole team <br>in-sync without being intrusive."</p></div>
+        <div class="slideCircleParent"><center><div class="slideCircleCenter"><span class="slideCircle"></span><span class="slideCircle slideCircle2"></span><span class="slideCircle slideCircle2"></span><span class="slideCircle slideCircle2"></span></div></center></div>
+        <button class="btn getStartBtn">Get Started</button>
+</div>
+        </div></div>
+        <div class="row">
+            <div class="col-xs-12"><div class="footerBody"><h1>Simplify how <br>your team works <br>today</h1><br><button class="btn getStartBtn footerBtn"><span>Get Started</span></button></div></div>
+            <div class="col-xs-12">
+                <div class="footerMenu">
+                <div class="row">
+                    <div class="col-xs-12"><div class="footerInbox"><input type="email" placeholder="Updates in your inbox..." class="InBox"><button class="btn btn-md btnInBox" onclick="inbox()">Go</button><span hidden></span><span></span></div></div>
+                    <div class="col-xs-6 navMenuParent">
+                        <ul class="nav navbar navMenu">
+                        <li class="active">Home</li>
+                        <li class="active">Pricing</li>
+                        <li class="active">Produts</li>
+                        <li class="active">About Us</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 navMenuParent">
+                        <ul class="nav navbar navMenu navMenu2">
+                            <li class="active">Careers</li>
+                            <li class="active">Community</li>
+                            <li class="active">Privacy Policy</li>
+                            </ul>
+                    </div>
+                    <div class="col-xs-12 contact"><img src="./icon-facebook.svg" alt=""><img src="./icon-youtube.svg" alt=""><img src="./icon-twitter.svg" alt=""><img src="./icon-pinterest.svg" alt=""><img src="./icon-instagram.svg" alt=""></div>
+                    <div class="col-xs-12 footerManageParent">
+                        <div class="footerCircleParent">
+                        <span class="footerCircle"></span>
+                        <span class="footerCircle footerCircle2"></span></div>
+                        <div class="footerCircleParent footerCircleParent2">
+                        <span class="footerCircle footerCircle3"></span>
+                        <span class="footerCircle footerCircle2 footerCircle3 paleCircle3"></span></div>
+                        <span class="managerTxt managerTxt2">manage</span><br>
+                        <span class="copyRight">Copyright 2020. All rights reserved</span>
+                    </div>
+                </div>
+            </div></div>
+        </div>
+        <script>
+            if (document.body.clientHeight>950&&document.body.clientWidth>450){
+                window.location = './index.html'
+            }</script>
+<script src="./app.js" defer></script>
+    </body>
+</html>

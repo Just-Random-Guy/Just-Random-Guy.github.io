@@ -1,0 +1,582 @@
+body{
+    font-family: 'Be Vietnam Pro';
+    overflow-x: hidden;
+    background-image: url(./bg-tablet-pattern.svg), url(./bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 120%,65%;
+    background-position-y: -160px,520px;
+    background-position-x:80px,255px;
+}
+.manageBlck{
+    height: 80px;
+}
+.manageCircle{
+    display: block;
+    height: 5px;
+    width: 5px;
+    background-color: hsl(12, 88%, 59%);
+    margin-left: 15%;
+    border-radius: 50px;
+    margin-top: 10.5px;
+    float: left;
+}
+.manageCircle2{
+    float: right;
+margin-left: 0%;
+}
+button{
+    border: none !important;
+    outline: none !important;
+}
+.steps>h5{
+    background-color:  rgb(235, 178, 169);
+    margin-top: 0%;
+    margin-left: 55px;
+    color: hsl(228, 39%, 23%);
+    padding-left: 30px;
+    padding-top: 9.5px;
+    height: 31.9px;
+}
+.steps>p{
+    line-height: 25px;
+    color:hsl(227, 12%, 61%);
+    margin-left: 15px;
+    font-family: 'Be Vietnam Pro Light';
+}
+.stepBtn{
+    margin-left: 15px;
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    border-radius: 25px;
+    width: 60px;
+    float: left;
+}
+.manageCircle3{
+    margin-top: 0%;
+}
+.paleCircle{
+    background-color: rgb(249, 143, 117);
+}
+.ManagerCircBlck{
+    width: 15px;
+    margin-top: 24px;
+    margin-left: 20px;
+    float: left;
+    clear: both;
+    height: 20px;
+}
+.manageBlck>div:nth-child(2){
+    margin-top: 0px;
+}
+.managerTxt{
+    font-family: 'Be Vietnam Pro';
+    font-size: 28px;
+    margin-left: 5px;
+    color: hsl(228, 39%, 23%);
+}
+.mobileMenuBtn{
+    width: 35px;
+    margin-top: 33px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    float: right;
+    margin-right: 25px;
+}
+.mobileMenuBtn2{
+    position: absolute;
+    right: 17px;
+    margin-top: 40px;
+}
+.mobMenuParent{
+    top: 90px;
+    position: absolute;
+    z-index: 99999;
+    visibility: hidden;
+    margin-left: 104%;
+
+}
+body > div:nth-child(3) > div:nth-child(1){
+margin-top: 10%;
+}
+.mobMenu{
+    box-shadow: 0px 0px 0px 10000px rgb(0, 0, 0,0.4);
+    margin-left: 2.5%;
+    border-radius: 5px;
+    width: 95%;
+    background-color: white;
+}
+.menuBtn{
+    color: hsl(228, 39%, 23%);
+    transform: translate(0, 65%);
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+.firstNav{
+    transform: translate(0,-40%);
+    padding-top: 15%;
+}
+.secondNav{
+    transform: translate(0,40%);
+    padding-bottom: 25%;
+}
+.mobMenuHid{
+    height: 5px;
+    width: 28px;
+    transform: rotate(40deg);
+    margin-right: 75px !important;
+    display: block;
+    background-color: hsl(228, 39%, 23%);
+
+}
+.mobMenuHid2{
+    margin-top: -5px;
+    transform: rotate(-40deg);
+}
+.burger__Menu{
+    height: 4px;
+    float: right;
+    clear: both;
+    width: 23px;
+    margin-top: 2px;
+    display: block;
+    background-color: hsl(228, 39%, 23%);
+}
+.ratingParent{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.infoParent{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.info,.rating{
+width: 160px;
+border: 10px white solid;
+height: 140px;
+position: relative;
+border-radius:2px;
+background-color: white;
+}
+.totalScore,.diffLastAndToday,.monthIndex{
+    margin-top: 5%;
+    padding-left: 10px !important;
+}
+.totalScoreChild{
+    height: 70px;
+    width: 150px;
+    border-radius: 3px;
+    background-color: rgb(249, 249, 249);
+}
+.diffLastAndTodayChild,.monthIndexChild{
+    height: 50px;
+    border-radius: 3px;
+    width: 70px;
+    background-color: hsl(12, 88%, 59%);
+}
+.monthIndexChild{
+    margin-left: -5px;
+    background-color: rgb(249, 249, 249);
+}
+.monthIndexChild>span,.diffLastAndTodayChild>span,.totalScoreChild>span{
+    position: absolute;
+    bottom: 5px;
+    font-size: 12px;
+    left: 15px;
+}
+.totalScoreChild>span{
+    left: 20px;
+    font-size: 28px;
+}
+.diffLastAndTodayChild>span{
+    left: 18px;
+    color: white;
+}
+.rating{
+float: right;
+margin-right: -8px;
+background-color: rgb(249, 249, 249);
+}
+.info{
+float: left;
+margin-left: -12px;
+}
+.percent{
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 170px;
+    border-radius:2px;
+    height: 148px;
+}
+.greetings{
+    margin-top: 90px;
+}
+.aboutProduct,.greetings{
+    text-align: center;
+}
+.aboutProduct>h1,.greetings>h1{
+    font-size: 30px;
+    color: hsl(228, 39%, 23%);
+    font-family: 'Be Vietnam Pro';
+}
+.aboutProduct>p,.greetings>p{
+    color:hsl(227, 12%, 61%);
+    font-size: 14px;
+    font-family: 'Be vietnam Pro Light';
+}
+.getStartBtn{
+    color: rgb(249, 249, 249);
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 50px;
+    padding: 3% 7%;
+    font-size: 12px;
+}
+h2{
+    color: hsl(228, 39%, 23%);
+}
+.slide{
+    margin-top: 70px;
+    width: 92%;
+    background-color: rgb(249, 249, 249);
+    float: left;
+    margin-left: 110%;
+    text-align: center;
+    color: hsl(227, 12%, 61%);
+    position: absolute;
+}
+.slide>center>h5{
+    margin-top: 25px;
+    color: hsl(228, 39%, 23%);
+}
+.firstScroll{
+    margin-left: 4%;
+    position: relative;
+}
+.footerInbox>span{
+    position: absolute;
+    white-space: pre;
+    left: 50px;
+    bottom: -20%;
+    color: red;
+}
+.slide>p{
+padding-bottom: 15px;
+}
+.slideCircleParent{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 45px;
+}
+.slideCircle{
+    height: 9px;
+    width: 9px;
+    float: left;
+    background-color: hsl(12, 88%, 59%);
+    display: block;
+    border-radius: 50px;
+    position: relative;
+    bottom: 0px;
+}
+.SlideBlck>.getStartBtn{
+    position: absolute;
+    width: 130.5px;
+    margin: 0 auto;
+    left: 0%;
+    right: 0%;
+    bottom: 0px;
+}
+.SlideBlck{
+position: relative;
+height: 345px;
+}
+.slideCircle2{
+    margin-left: 2px;
+    border: 1px hsl(12, 88%, 59%) solid;
+    background-color: white;
+}
+.slideCircleCenter{
+    width: 42px;
+    margin-left: -5px;
+    height: 15px;
+    position: relative;
+    bottom: 10px;
+}
+.footerBody{
+    margin-top: 45px;
+    height: 400px;
+    width: 100%;
+    color: white;
+    background-image: url(./bg-tablet-pattern\ copy.svg);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position-y: 55px;
+    background-position-x: -430px;
+    text-align: center;
+    position: relative;
+    background-color: hsl(12, 88%, 59%);
+}
+.footerBody>h1{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 45%;
+    transform: translate(0%, -50%);
+}
+.btnInBox{
+    height: 50px;
+    margin-left: 10px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+}
+.navMenuParent{
+    position: relative;
+    height: 165px;
+    padding-top: 40px;
+}
+.navMenu{
+    margin: 0 auto;
+    left: 0;
+    right: 0%;white-space: nowrap;
+    width: 40%;
+    position: absolute;
+    color:gainsboro;
+}
+.contact>img{
+    margin-top: 30px;
+    margin-left: 40px;
+height: 32px;
+width: 34px;
+}
+.navMenu2{
+    left: -30%;
+}
+.navMenu>li{
+    line-height: 30px !important;
+}
+.InBox{
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 70%;
+    height: 50px;
+    border-radius: 50px;
+    color:gray;
+    padding-left: 5%;
+    border: none;
+    outline: none;
+}
+.footerBtn>span{
+    margin-left: -4px;
+}
+.footerMenu{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(33, 37, 47);
+}
+.footerManageParent{
+    margin-top: 60px;
+    height: 40px;
+}
+.footerCircleParent{
+    float: left;
+    margin-left: 30%;
+    clear: both;
+}
+.footerCircle{
+    height:7px;
+    width: 7px;
+    float: left;
+    display: block;
+    border-radius: 50px;
+    background-color: hsl(12, 88%, 59%);
+}
+.footerCircle2{
+    margin-left: 5px;
+}
+.footerCircle3{
+    margin-top: 5px;
+}
+.managerTxt2{
+    color: white;
+    position: absolute;
+    margin-left: 7px;
+    top: -13px;
+    font-family: 'Be Vietnam Pro';
+}
+.paleCircle3{
+    background-color:  hsla(12, 88%, 59%, 0.6);
+}
+body > div:nth-child(3) > div:nth-child(1) > div > button,body > div:nth-child(7) > div > div > button{
+    box-shadow: 1px 0px 10px 1px hsla(12, 88%, 59%,0.6);
+}
+.copyRight{
+    left: 90px;
+    top: 160%;
+    position: absolute;
+    color: gray;
+}
+.footerBtn{
+    background-color: white;
+    position: absolute;
+    top: 75%;
+    transform: translate(0%, -50%);
+    left: 0;
+    right: 0;
+    width:120px;
+    margin: 0 auto;
+    color: hsl(12, 88%, 59%);
+}
+.slide>center>img{
+    width: 20%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top:-50px;
+    position: absolute;
+}
+
+@media (max-width:450px) and (max-height:900px){
+    .managerTxt2{
+        font-size: 29px;
+    }
+    @media (max-width:400px) and (max-height:900px){
+        .mobileMenuBtn{
+            margin-right: 15px;
+        }
+        .copyRight{
+            top: 140%;
+        }
+        @media (max-width:400px) and (max-height:850px){
+            .contact>img{
+                width: 28px !important;
+                height: 26px !important;
+            }
+           .InBox{
+            width:68%;
+           }
+        }
+    }
+}
+.rating>hr {
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 6.7%;
+    width:100%;
+}
+ .ratingLvl {
+    position: absolute;
+    bottom: 28%;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 0px 0px 5px 5px;
+    width: 15%;
+    left: 3%;
+    height: 26%;
+}
+
+.innerRatingLvl {
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    height: 30%;
+    border-radius: 0px 0px 5px 5px;
+    background-color: hsl(228, 39%, 23%); 
+}
+
+.RatingLvlChildnum2 {
+    height: 40%;
+    top: 38%;
+    width: 15%;
+    left: 23%;
+}
+.Lvl2 {
+    top: -40%;
+    left: 0%;
+    width: 100%;
+    height: 60%;
+    margin-left: 0%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.RatingLvlChildnum3 {
+    height:34%;
+    width: 15%;
+    top: 62%;
+    left: 44%;
+    background-color: hsl(12, 88%, 59%);
+}
+
+.Lvl3 {
+    top: -40%;
+    width: 100%;
+    background-color: hsl(228, 39%, 23%);
+    height: 65.5%;
+    left: 0;
+    margin-left: 0;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.RatingLvlChildnum4 {
+    border-radius: 5px 5px 0px 0px;
+    height: 30%;
+    top: 17%;
+    width: 15%;
+    left: 64%;
+    background-color: hsl(12, 88%, 59%);
+}
+.RatingLvlChildnum5 {
+    top: 47%;
+    width: 15%;
+    height: 28%;
+    right: 3%;
+    background-color: hsl(12, 88%, 59%);
+}
+.Lvl4 {
+    background-color: hsl(228, 39%, 23%);
+    top: -20%;
+    height: 35.2%;
+    width: 100%;
+    left: 0%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.Lvl5 {
+    background-color: hsl(228, 39%, 23%);
+    top: 80%;
+    left: 0%;
+    height: 28%;
+    margin-left: 0%;
+    width: 100%;
+    border-radius: 0px 0px 5px 5px;
+}
+#hr_one {
+    margin-top: 3%;
+}
+@media (max-height:700px) and (max-width:400px){
+    .mobileMenuBtn{
+        margin-right: 10px !important;
+    }
+    .InBox{
+        width: 68% !important;
+    }
+    .contact>img{
+        height: 26px;
+        width: 28px;
+    }
+    .managerTxt2{
+        top:-14px;
+    }
+    .footerCircle{
+        height: 6px;
+        width: 6px;
+    }
+
+}

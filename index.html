@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="@_styles.css">
     <title>Document</title>
 </head>
-<body>
+<body onresize="Screenresize()">
     <div class="nav navbar container-fluid" style="height: 20%;">
         <div class="manageBlck"><div class="ParentBlck"><div class="manageBlckParent"><p class="managerTxt">manage</p></div><div class="CircleBlckParent">
             <div class="CircleBlckChild"><span class="CircleChild1"></span><span class="CircleChild1 CircleChild2"></span></div><br>
@@ -55,16 +55,17 @@
             </div>
             <div class="col-md-7 col-sm-7 col-xs-8">
                 <div class="row padding withoutTop">
-                    <div class="col-md-12 col-sm-12 col-xs-12 steps"><button class="btn btn-md stepBtn">01</button><h6>Track company-wide progress</h6><br><p>See how your day-to-day tasks fit into the wider vision.<br>Go from tracking progress at the milestone level all the<br>way done to the smallest of details. Never lose sight of<br>the bigger picture again</p><br></div>
-                    <div class="col-md-12 col-sm-12 col-xs-12 steps"><button class="btn btn-md stepBtn">02</button><h6>Advanced built-in reports</h6><br><p>Set internal delivery estimates and track progress toward<br>company goals. Our customisable dashboard helps you<br>build out the reports you need to keep key stakeholders<br>informed</p><br></div>
-                    <div class="col-md-12 col-sm-12 col-xs-12 steps"><button class="btn btn-md stepBtn">03</button><h6>Everything you need in one place</h6><br><p>Stop jumping from one service to another to<br>communicate, store files, track tasks and share<br>documents. Manage offers an all-in-one team<br>productivity solution.</p><br></div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 steps"><button class="btn btn-md stepBtn">01</button><h6>Track company-wide progress</h6><br><p>See how your day-to-day tasks fit into the wider vision. <br>Go from tracking progress at the milestone level all the <br>way done to the smallest of details. Never lose sight of <br>the bigger picture again</p><br></div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 steps"><button class="btn btn-md stepBtn">02</button><h6>Advanced built-in reports</h6><br><p>Set internal delivery estimates and track progress toward <br>company goals. Our customisable dashboard helps you <br>build out the reports you need to keep key stakeholders <br>informed</p><br></div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 steps"><button class="btn btn-md stepBtn">03</button><h6>Everything you need in one place</h6><br><p>Stop jumping from one service to another to <br>communicate, store files, track tasks and share <br>documents. Manage offers an all-in-one team <br>productivity solution.</p><br></div>
                 </div>
             </div>
         </div>
-        <div class="row SlideMenu">
+        <div class="row SlideMenu"onmousemove="ScrollBtn(0)" onmouseleave="ScrollBtn(1)">
             <center><h3 style="color: hsl(228, 39%, 23%);" id="h3Elem">What they've said</h3></center>
-            <div class="col-md-12 col-sm-12 col-xs-12 SlideBlck" onmousedown="a(event)" onmouseup="c()" onmouseleave="c()" onmousemove="bet(event)">
-            <div class="row">
+            <button class="rightScrollParent" onclick="Scroll(0)" hidden><span class="rightScroll"></span><span class="rightScroll rightScroll2"></span></button><button class="leftScrollParent" onclick="Scroll(1)" hidden><span class="leftScroll"></span><span class="leftScroll leftScroll2"></span></button>   
+            <div class="col-md-12 col-sm-12 col-xs-12 SlideBlck">
+                <div class="row">
             <div class="col-md-3 col-sm-3 col-xs-11 saidBlck" id='firstScroll' ><center><img src="./avatar-anisha.png" alt="" class="Avatar_img"></center><br><center><h5>Anisha Li</h5></center><br><p>"Manage has supercharged our team's workflow. The<br>ability to maintain visibility on larger milestones at all times<br>keeps everyone motivated"</p></div>
             <div class="col-md-3 col-sm-3 col-xs-11 saidBlck" id="secondBlck"><center><img src="./avatar-ali.png" alt="" class="Avatar_img"></center><br><center><h5>Ali Bravo</h5></center><br><p>"We have been able to cancel so many other subscriptions<br>since using Manage. There is no more cross-chanell<br>confusion and everyone is much more focused."</p></div>
             <div class="col-md-3 col-sm-3 col-xs-11 saidBlck" id="thirdBlck"><center><img src="./avatar-richard.png" alt="" class="Avatar_img"></center><br><center><h5>Richard Watts</h5></center><br><p>"Manage allows us to provide structure and process. It<br>keeps us organized and focused. I can't stop recommending<br>them to everyone I talk to!"</p></div>
@@ -89,6 +90,9 @@
         </div>
             <div class="col-md-4 col-sm-4 col-xs-4 footerInbox"><input type="email" placeholder="Updates in your inbox..."><button onclick="inbox()">Go</button><br><span hidden></span><p>Copyright 2020. All Rights Reserved</p></div>
         </div>
-        
+        <script>
+            if (document.body.clientHeight<=950&&document.body.clientWidth<=450){
+                window.location = './mobile.html'
+            }</script>
         <script src="./app.js" defer></script></body>
 </html>
