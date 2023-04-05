@@ -10,9 +10,11 @@ function SlideMob(a,b) {
     console.log(posX)
 }
 if(b==1&&posX!=undefined){
+    console.log(a);
     if(c!=3){
     
-  if(posX-parseInt(a.clientX)>=10){
+  if(posX-parseInt(a.changedTouches[0].clientX)>=10){
+    console.log(55)
   document.querySelector(`.${slideClass[0+c]}`).setAttribute('style','animation-name:SlideMob1;animation-duration:0.4s;margin-left:-110%;')
   c+=1;
   document.querySelectorAll('.slideCircle')[c-1].setAttribute('style','background-color:white;border:1px hsl(12, 88%, 59%) solid;')
@@ -20,7 +22,7 @@ if(b==1&&posX!=undefined){
   document.querySelector(`.${slideClass[0+c]}`).setAttribute('style','animation-name:SlideMob2;animation-duration:0.3s;margin-left:4%;')
   }}
   if(c!=0){
-    if(posX-parseInt(a.clientX)<=-10){
+    if(posX-parseInt(a.changedTouches[0].clientX)<=-10){
     document.querySelector(`.${slideClass[c]}`).setAttribute('style','animation-name:SlideMob3;animation-duration:0.4s;margin-left:110%;')
     c-=1;
     document.querySelectorAll('.slideCircle')[c].setAttribute('style','background-color:hsl(12, 88%, 59%);')
