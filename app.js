@@ -1,6 +1,34 @@
 let scet=0;
 let i =0;
 let b =2;
+let c =0;
+let posX=undefined;
+let slideClass = ['firstScroll','secondScroll','thirdScroll','fourScroll']
+function SlideMob(a,b) {
+    if(b==0){
+    posX=parseInt(a.changedTouches[0].clientX);
+    console.log(posX)
+}
+if(b==1&&posX!=undefined){
+    if(c!=3){
+    
+  if(posX-parseInt(a.clientX)>=10){
+  document.querySelector(`.${slideClass[0+c]}`).setAttribute('style','animation-name:SlideMob1;animation-duration:0.4s;margin-left:-110%;')
+  c+=1;
+  document.querySelectorAll('.slideCircle')[c-1].setAttribute('style','background-color:white;border:1px hsl(12, 88%, 59%) solid;')
+  document.querySelectorAll('.slideCircle')[c].setAttribute('style','background-color:hsl(12, 88%, 59%);')
+  document.querySelector(`.${slideClass[0+c]}`).setAttribute('style','animation-name:SlideMob2;animation-duration:0.3s;margin-left:4%;')
+  }}
+  if(c!=0){
+    if(posX-parseInt(a.clientX)<=-10){
+    document.querySelector(`.${slideClass[c]}`).setAttribute('style','animation-name:SlideMob3;animation-duration:0.4s;margin-left:110%;')
+    c-=1;
+    document.querySelectorAll('.slideCircle')[c].setAttribute('style','background-color:hsl(12, 88%, 59%);')
+    document.querySelectorAll('.slideCircle')[c+1].setAttribute('style','background-color:white;')
+    document.querySelector(`.${slideClass[c]}`).setAttribute('style','animation-name:SlideMob4;animation-duration:0.3s;margin-left:4%;')
+    }}
+}
+}
 function Screenresize() {
     console.log(window.innerHeight,window.innerWidth);
     if (document.body.clientHeight<=950&&document.body.clientWidth<=450){

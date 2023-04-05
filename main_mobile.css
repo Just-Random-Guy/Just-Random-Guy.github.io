@@ -1,11 +1,14 @@
 body{
     font-family: 'Be Vietnam Pro';
-    overflow-x: hidden;
     background-image: url(./bg-tablet-pattern.svg), url(./bg-tablet-pattern.svg);
     background-repeat: no-repeat;
     background-size: 120%,65%;
     background-position-y: -160px,520px;
     background-position-x:80px,255px;
+}
+.ParentBlck{
+    position: relative;
+    overflow-x: hidden;
 }
 .manageBlck{
     height: 80px;

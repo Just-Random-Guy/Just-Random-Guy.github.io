@@ -8,6 +8,28 @@
         margin-left: 4%;
     }
 }
+@keyframes SlideMob2 {
+    from {margin-left:110%;}
+    to{
+    margin-left: 4%;}
+    }
+    @keyframes SlideMob3 {
+    from {margin-left:4%;}
+    to{
+    margin-left: 110%;}
+    }
+    @keyframes SlideMob4 {
+    from {margin-left:-110%;}
+    to{
+    margin-left: 4%;}
+    }
+    
+    @keyframes SlideMob1 {
+    from {margin-left:4%;}
+    to{
+    margin-left: -110%;}
+    }
+    
 @keyframes RightLeftBtnVis {
     from{
         background-color: transparent;
